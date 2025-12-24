@@ -1,18 +1,17 @@
 ﻿cff-version: 1.2.0
-title: "A Regulatory-Aligned Assurance Framework for Federated Learning in Aviation with a Prognostics and Diagnostics Testbed"
-authors:
-  - family-names: "ozdemir"
-    given-names: "Faruk"
-    affiliation: ""
-  - name: ""
-version: 0.1.0
-doi: doi:10.5281/zenodo.18047343
 message: "If you use this benchmark, please cite it using this metadata."
-license: Apache-2.0
-repository-code: repository-code:"https://github.com/faruk6868/fl-aviation-assurance-benchmark"
+title: "A Regulatory-Aligned Assurance Framework for Federated Learning in Aviation with a Prognostics and Diagnostics Testbed"
+type: software
+authors:
+  - family-names: "Ozdemir"
+    given-names: "Faruk"
+license: "Apache-2.0"
+repository-code: "https://github.com/faruk6868/fl-aviation-assurance-benchmark"
+doi: "10.5281/zenodo.18047343"
+version: "0.1.1"
 keywords:
-  - federated learning
-  - assurance
-  - aviation
-  - prognostics
-  - NASA C-MAPSS
+  - "federated learning"
+  - "assurance"
+  - "aviation"
+  - "prognostics"
+  - "NASA C-MAPSS"
