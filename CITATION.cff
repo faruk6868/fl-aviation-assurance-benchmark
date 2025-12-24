@@ -5,10 +5,11 @@ type: software
 authors:
   - family-names: "Ozdemir"
     given-names: "Faruk"
-license: "Apache-2.0"
-repository-code: "https://github.com/faruk6868/fl-aviation-assurance-benchmark"
 doi: "10.5281/zenodo.18047343"
+url: "https://github.com/faruk6868/fl-aviation-assurance-benchmark"
 version: "0.1.1"
+license: "Apache-2.0"
+date-released: "2025-12-24"
 keywords:
   - "federated learning"
   - "assurance"
