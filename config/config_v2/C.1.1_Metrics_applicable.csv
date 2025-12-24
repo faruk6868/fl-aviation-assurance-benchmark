@@ -1,0 +1,70 @@
+Metric ID,Metric Name,Metric Definition,Justification (why selected),Related Requirement ID(s)
+M.CLS.Pre,Precision (Global),"Precision is defined as TP/(TP+FP) on an independent test set, with macro and weighted averages reported.	",Selected because it quantifies false alarm propensity and complements safety-linked acceptance thresholds.,R.M.1.1
+M.CLS.F1_Sc,F1-Score (Global),"F1 is defined as 2�(Precision�Recall)/(Precision+Recall) on an independent test set.	","Selected because it balances precision and recall to provide a single discriminative figure of merit.
+",R.M.1.1
+M.CLS.AUC,AUC (ROC),"AUC is the area under the ROC curve integrated across thresholds on an independent test set.	","Selected because it offers threshold-free separability supporting independent test evaluation.
+",R.M.1.3; R.M.1.4
+M.DATA.ODD_COV,ODD Coverage Ratio (%),"Quantifies the portion of ODD envelopes and risk-weighted edge cases represented in the data.	","Selected because it evidences representativeness of operational conditions for assurance.
+",R.D.1.2; R.M.2.2
+M.DATA.SPLIT_INT,Dataset Separation Integrity,"Assures absence of train�test contamination by verifying identity, temporal, and engine-unit separation.	","Selected because it preserves validity of performance estimates in regulated evaluations.
+",R.D.2.4
+M.DATA.PREPROC_AUDIT,"Data Pre-Processing Audit Rate	","Proportion of data samples with documented and reproducible pre-processing and feature engineering history.	","Directly measurable by logging/trace in FL pipelines with feature engineering steps can be recorded.	",R.D.2.6
+M.DRIFT.DETECT.MTTD,Drift Detection Mean Time to Detection,"Average number of timeline batches (or hours) required for the monitoring stack to flag sustained drift after it begins.	","Demonstrates the monitoring system surfaces drift quickly enough to preserve allocated safety margins.",R.L.3.6
+M.DRIFT.DETECT.RECALL,Drift Detection Recall,"Proportion of drift-affected batches in which the detector correctly raises an alarm.	","Ensures sensitivity remains high so hazardous drift is not missed in operation.",R.L.3.6
+M.DRIFT.DETECT.FAR,Drift Detection False Alarm Rate,"Proportion of nominal batches where the detector triggers without drift present.	","Controls nuisance alarms that degrade operator trust and violate lifecycle monitoring expectations.",R.L.3.6
+M.DRIFT.KS,KS Drift Statistic,"Quantifies distributional change using the Kolmogorov�Smirnov two-sample statistic across evaluation windows.	","Selected because it provides a nonparametric signal for covariate shift magnitude.
+",R.L.3.6
+M.FL.NONIID,Client Non-IID Index (0�1) and Registry Completeness (%),"Characterizes cross-client heterogeneity by summarizing divergence of client data distributions and label prevalence.	","Selected because heterogeneity materially affects convergence, fairness, and stability in federated learning.
+",R.D.6.1
+"M.FL.COMM_BYTES	",Communication Efficiency (bytes/round),"Describes the average payload budget per training round for model updates within the federation.	","Selected because bandwidth feasibility is critical for edge or airborne constraints.
+",R.F.1.1
+M.FL.CONV_TIME,Time-to-Convergence (rounds/min),"Characterizes optimization efficiency as the number of rounds or wall-clock time to reach target validation performance.	","Selected because timely training under budgeted resources is operationally relevant.
+",R.F.1.2
+"	M.FL.PRIV_DP","Privacy Budget (epsilon, delta)","Describes achieved differential privacy guarantees for client updates via (?, ?).	","Selected because privacy assurances must be quantified alongside utility.
+",R.F.2.1
+M.FL.ATTACK_RES,Attack Resistance (success rate %),"Characterizes resilience to data or model poisoning as the attack success rate under adversarial participation.	","Selected because safety-critical federated learning requires robustness to malicious clients.
+",R.F.3.1
+M.FL.BYZ_TOL,Robust Aggregation Tolerance (%),"Describes robustness of aggregation to arbitrary faulty or adversarial client updates.	","Selected because tolerance to Byzantine behavior sustains model integrity during training.
+",R.F.3.2
+"M.FL.WORST_CLIENT	",Worst-Group Performance (min),"Surfaces the lowest performance observed across clients or operational regimes within the federation.	","Selected because worst-case behavior governs safety and equity risks.
+",R.F.4.1
+M.FL.BENEFIT_EQ,Benefit Equity Index,"Characterizes fairness of performance gains distribution across clients relative to an appropriate baseline.	","Selected because benefits should be broadly shared in regulated multi-party settings.
+",R.F.4.2
+"M.FL.COMM_COMP	",Communication Efficiency Ratio,"Expresses compression or sparsification efficiency as the ratio of compressed to uncompressed payload.	",Quantifies payload reduction benefits of compression/sparsification for bandwidth-constrained FL.,R.F.1.1
+"M.FL.PRIV_EPS","Privacy Budget (epsilon)","Scalar epsilon achieved for the chosen DP variant, enabling numeric gating of privacy guarantees.	","Derived from the composite privacy metric to allow enforceable thresholds on epsilon.",R.F.2.1
+"M.FL.PRIV_DELTA","Privacy Budget (delta)","Scalar delta achieved for the chosen DP variant, enabling numeric gating of probability-of-failure for DP claims.	","Derived from the composite privacy metric to allow enforceable thresholds on delta.",R.F.2.1
+"M.FL.ATTACK_DET	",Attack Detection Rate,"Characterizes effectiveness of server-side defenses by the rate of correctly detected adversarial or anomalous updates.	","Selected because communication optimization must demonstrate tangible bandwidth savings.
+",R.F.3.2
+M.GEN.GAP,Generalization Gap,Absolute difference between train and test performance for primary metric on matched splits.,Directly quantifies overfitting consistent with generalization bound expectations.,"R.M.1.5, R.M.3.1"
+M.PERF.COV,Independent Test Evaluation Coverage (%),"Characterizes completeness of planned evaluation cases, datasets, and operating conditions executed.	","Selected because comprehensive coverage is necessary for defensible assurance.
+",R.M.1.3; R.M.1.4
+M.PERF.STAT_REP,Generalization Reporting Completeness (%),Presence of generalization bounds with two-sided 95% confidence intervals for primary metrics.,Supports out-of-sample claims with statistically sound uncertainty reporting.,"R.M.1.5; R.M.1.6, R.M.4.2"
+M.PERF.CROSS_STAB,Cross-Population Stability (worst-group ?),"Describes dispersion of performance across clients or subpopulations within the ODD.	","Selected because stable behavior across populations supports equitable and safe deployment.
+",R.M.1.7
+M.PRG.PHM,Prognostics Score (PHM08),"Captures timeliness-weighted accuracy of RUL estimates, penalizing early and late predictions asymmetrically.	","Selected because domain-specific timeliness matters beyond point error for maintenance decisions.
+",R.M.1.1
+ M.ROB.STAB_ODD,Stability Across ODD (CV %),Coefficient of variation of key metrics across ODD segments and transitions under repeated testing.,Confirms stable performance across validated operating regions and transitions.,"R.M.2.2, R.M.4.1, R.M.5.2"
+M.ROB.DEGRAD,Robustness Degradation Index (%),"Describes resilience to realistic input imperfections such as noise, scaling, and missingness.	","Selected because real-world data imperfections are expected in aviation maintenance operations.
+",R.M.2.3; R.M.2.4
+M.RT.LAT,Inference Latency (ms),"Profiles per-sample end-to-end latency on representative target hardware.	","Selected because real-time feasibility is required or strongly preferred in many operational contexts.
+",R.F.1.2
+ M.SAF.ACC,Safety-Linked Accuracy (min),"Describes minimum acceptable accuracy derived from safety allocations for the decision task.	","Selected because safety objectives impose explicit thresholds on acceptable error rates.
+",R.M.1.1; R.M.1.2
+M.SAF.REC,Safety-Linked Recall (min),"Describes minimum acceptable sensitivity for safety-critical event or fault detection.	","Selected because missed detections may lead to unacceptable hazard exposure.
+",R.M.1.1; R.M.1.2
+M.SAF.FPFN,Safety-Linked FPR/FNR (max),"Describes maximum acceptable false positive and false negative rates under safety constraints.	","Selected because both alarm burden and missed events affect safety and operations.
+",R.M.1.1; R.M.1.2
+M.SAF.FNR_MAX,Safety-Linked FNR (max),"Specific FHA-derived limit on false negative rate for the safety classifier.	","Sub-metric of M.SAF.FPFN used for enforceable gating.",R.M.1.1; R.M.1.2
+M.SAF.FPR_MAX,Safety-Linked FPR (max),"Specific FHA-derived limit on false positive rate for the safety classifier.	","Sub-metric of M.SAF.FPFN used for enforceable gating.",R.M.1.1; R.M.1.2
+M.SAF.RMSE,Safety-Linked RMSE (max),"Describes maximum acceptable prediction error for RUL or regression tasks tied to safety allocations.	","Selected because prognostic accuracy thresholds protect maintenance planning and decisions.
+",R.M.1.1; R.M.1.2
+M.STAT.CI,95% CI Width,"Characterizes statistical uncertainty via two-sided 95% confidence interval widths for key metrics.	","Selected because uncertainty magnitudes must accompany point estimates in assurance.
+",R.M.1.6
+M.XAI.FIDE_STAB,Attribution Fidelity & Stability,"Describes quality and consistency of feature attributions relative to model behavior across clients and perturbations.	","Selected because quantitative explainability evidence supports understanding and trust without human studies.
+",R.E.1.2
+M.XAI.FIDELITY,Attribution Fidelity Score,"Quantifies the average fidelity of attribution vectors with respect to the underlying model gradients.	","Provides enforceable numeric gating for the fidelity component of M.XAI.FIDE_STAB.",R.E.1.2
+M.XAI.STABILITY,Attribution Stability Score,"Quantifies the consistency of attribution vectors across repeated runs/perturbations.	","Provides enforceable numeric gating for the stability component of M.XAI.FIDE_STAB.",R.E.1.2
+M.BIAS.COMPL,"Model Bias/Variance Compliance Rate	","Share of models satisfying pre-defined thresholds for bias and variance.	",This metric directly quantifies model fairness and generalization stability by checking if the bias and variance of federated models stay within pre-defined acceptable thresholds,R.M.3.2
+M.BIAS.TRADEOFF ,Bias�Variance Trade-off Profile,"Aggregated characterization of bias and variance across candidate model families, reported as a Pareto-style bias�variance profile or frontier, used to justify the selected model family.","Directly computable from repeated FL experiments over C-MAPSS for multiple model families, enabling quantitative analysis of the bias�variance trade-off",R.M.3.1.
+M.XFORM.DELTA,"Model Transformation Impact Delta	","Performance gap between pre- and post-transformation model on held-out test data.	","Model transformation (such as conversion, quantization, or deployment optimization) can sometimes unintentionally degrade model performance. This metric provides a quantitative check to ensure the real-world implementation of a trained model remains to its validated baseline",R.M.5.1
+M.INFER.STAB,"Inference Stability Score	","Coefficient of variation of inference performance across repeated test runs and ODD segments.	","Inference stability over multiple cycles, nodes, or ODDs is crucial for the trustworthiness and reliability of federated models under varying operational conditions. ",R.M.5.2

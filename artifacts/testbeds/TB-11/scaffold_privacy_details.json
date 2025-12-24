@@ -1,0 +1,60 @@
+{
+  "baseline_rmse": 35.2279275704711,
+  "variants": [
+    {
+      "variant": "baseline",
+      "epsilon": Infinity,
+      "delta": 1e-05,
+      "noise_multiplier": 0.0,
+      "clip_norm": 1.0,
+      "rmse": 35.2279275704711,
+      "baseline": true,
+      "utility_delta": 0.0,
+      "guardrail_pass": true
+    },
+    {
+      "variant": "epsilon_5",
+      "epsilon": 191.50774312254023,
+      "delta": 1e-05,
+      "noise_multiplier": 0.8,
+      "clip_norm": 1.0,
+      "rmse": 99.07189950508973,
+      "baseline": false,
+      "utility_delta": 1.812311320525542,
+      "guardrail_pass": false
+    },
+    {
+      "variant": "epsilon_2",
+      "epsilon": 127.67182874836017,
+      "delta": 1e-05,
+      "noise_multiplier": 1.2,
+      "clip_norm": 1.0,
+      "rmse": 102.4760769217874,
+      "baseline": false,
+      "utility_delta": 1.9089442379711634,
+      "guardrail_pass": false
+    },
+    {
+      "variant": "epsilon_1",
+      "epsilon": 76.6030972490161,
+      "delta": 1e-05,
+      "noise_multiplier": 2.0,
+      "clip_norm": 1.0,
+      "rmse": 107.1580516621875,
+      "baseline": false,
+      "utility_delta": 2.041849437433554,
+      "guardrail_pass": false
+    }
+  ],
+  "selected_variant": {
+    "variant": "epsilon_1",
+    "epsilon": 76.6030972490161,
+    "delta": 1e-05,
+    "noise_multiplier": 2.0,
+    "clip_norm": 1.0,
+    "rmse": 107.1580516621875,
+    "baseline": false,
+    "utility_delta": 2.041849437433554,
+    "guardrail_pass": false
+  }
+}

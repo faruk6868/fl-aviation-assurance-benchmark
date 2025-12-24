@@ -1,0 +1,62 @@
+Test ID,Test Name,Metric ID,Metric Name,Requirement ID,Authorities Source
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.FL.NONIID,Client Non-IID Index (0�1) and Registry Completeness (%),R.D.6.1,FL
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.DATA.ODD_COV,ODD Coverage Ratio (%),R.D.1.2,"STD, EASA"
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.DATA.ODD_COV,ODD Coverage Ratio (%),R.M.2.2,"EASA, STD"
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.DATA.SPLIT_INT,Dataset Separation Integrity,R.D.2.4,"FAA, EASA, FDA"
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.DATA.PREPROC_AUDIT,Data Pre-Processing Audit Rate,R.D.2.6,EASA
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.PERF.COV,Independent Test Evaluation Coverage (%),R.M.1.3,"EASA, STD"
+TB-01,Federated Data Setup & Non-IID/ODD Verification,M.PERF.COV,Independent Test Evaluation Coverage (%),R.M.1.4,EASA
+TB-02,Generalization & Statistical Uncertainty Audit,M.GEN.GAP,Generalization Gap,R.M.1.5,"EASA, FDA"
+TB-02,Generalization & Statistical Uncertainty Audit,M.GEN.GAP,Generalization Gap,R.M.3.1,EASA
+TB-02,Generalization & Statistical Uncertainty Audit,M.STAT.CI,95% CI Width,R.M.1.6,FDA
+TB-02,Generalization & Statistical Uncertainty Audit,M.PERF.STAT_REP,Generalization Reporting Completeness (%),R.M.1.5,"EASA, FDA"
+TB-02,Generalization & Statistical Uncertainty Audit,M.PERF.STAT_REP,Generalization Reporting Completeness (%),R.M.1.6,FDA
+TB-02,Generalization & Statistical Uncertainty Audit,M.PERF.STAT_REP,Generalization Reporting Completeness (%),R.M.4.2,EASA
+TB-02,Generalization & Statistical Uncertainty Audit,M.BIAS.COMPL,Model Bias/Variance Compliance Rate,R.M.3.2,EASA
+TB-02,Generalization & Statistical Uncertainty Audit,M.BIAS.TRADEOFF,Bias�Variance Trade-off Profile,R.M.3.1,EASA
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.ACC,Safety-Linked Accuracy (min),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.ACC,Safety-Linked Accuracy (min),R.M.1.2,STD
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.REC,Safety-Linked Recall (min),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.REC,Safety-Linked Recall (min),R.M.1.2,STD
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FPFN,Safety-Linked FPR/FNR (max),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FPFN,Safety-Linked FPR/FNR (max),R.M.1.2,STD
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FNR_MAX,Safety-Linked FNR (max),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FNR_MAX,Safety-Linked FNR (max),R.M.1.2,STD
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FPR_MAX,Safety-Linked FPR (max),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.SAF.FPR_MAX,Safety-Linked FPR (max),R.M.1.2,STD
+TB-03,Safety Classification Evaluation (Failure Horizon),M.CLS.Pre,Precision (Global),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.CLS.F1_Sc,F1-Score (Global),R.M.1.1,"STD, EASA"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.CLS.AUC,AUC (ROC),R.M.1.3,"EASA, STD"
+TB-03,Safety Classification Evaluation (Failure Horizon),M.CLS.AUC,AUC (ROC),R.M.1.4,EASA
+TB-04,Safety Prognostics Evaluation (RUL),M.SAF.RMSE,Safety-Linked RMSE (max),R.M.1.1,"STD, EASA"
+TB-04,Safety Prognostics Evaluation (RUL),M.SAF.RMSE,Safety-Linked RMSE (max),R.M.1.2,STD
+TB-04,Safety Prognostics Evaluation (RUL),M.PRG.PHM,Prognostics Score (PHM08),R.M.1.1,"STD, EASA"
+TB-05,Cross-Population Stability & Worst-Group Analysis,M.PERF.CROSS_STAB,Cross-Population Stability (worst-group ?),R.M.1.7,FDA
+TB-05,Cross-Population Stability & Worst-Group Analysis,M.FL.WORST_CLIENT,Worst-Group Performance (min),R.F.4.1,FDA
+TB-05,Cross-Population Stability & Worst-Group Analysis,M.XFORM.DELTA,Model Transformation Impact Delta,R.M.5.1,EASA
+TB-06,Benefit Equity vs Baseline,M.FL.BENEFIT_EQ,Benefit Equity Index,R.F.4.2,FL
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.ROB.STAB_ODD,Stability Across ODD (CV %),R.M.2.2,"EASA, STD"
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.ROB.STAB_ODD,Stability Across ODD (CV %),R.M.4.1,EASA
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.ROB.STAB_ODD,Stability Across ODD (CV %),R.M.5.2,EASA
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.ROB.DEGRAD,Robustness Degradation Index (%),R.M.2.3,EASA
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.ROB.DEGRAD,Robustness Degradation Index (%),R.M.2.4,EASA
+TB-07,Robustness to ODD Segment Shifts & Perturbations,M.INFER.STAB,Inference Stability Score,R.M.5.2,EASA
+TB-08,Drift Readiness & Detection Power,M.DRIFT.DETECT.MTTD,Drift Detection Mean Time to Detection,R.L.3.6,FDA
+TB-08,Drift Readiness & Detection Power,M.DRIFT.DETECT.RECALL,Drift Detection Recall,R.L.3.6,FDA
+TB-08,Drift Readiness & Detection Power,M.DRIFT.DETECT.FAR,Drift Detection False Alarm Rate,R.L.3.6,FDA
+TB-08,Drift Readiness & Detection Power,M.DRIFT.KS,KS Drift Statistic,R.L.3.6,FDA
+TB-09,Communication Budget & Compression Efficiency,M.FL.COMM_BYTES,Communication Efficiency (bytes/round),R.F.1.1,FL
+TB-09,Communication Budget & Compression Efficiency,M.FL.COMM_COMP,Communication Efficiency Ratio,R.F.1.1,FL
+TB-10,Convergence Performance across Algorithms,M.FL.CONV_TIME,Time-to-Convergence (rounds/min),R.F.1.2,FL
+TB-11,Privacy Budget & Utility Trade-off,M.FL.PRIV_DP,"Privacy Budget (epsilon, delta)",R.F.2.1,FL
+TB-11,Privacy Budget & Utility Trade-off,M.FL.PRIV_EPS,Privacy Budget (epsilon),R.F.2.1,FL
+TB-11,Privacy Budget & Utility Trade-off,M.FL.PRIV_DELTA,Privacy Budget (delta),R.F.2.1,FL
+TB-11,Privacy Budget & Utility Trade-off,M.SAF.RMSE,Safety-Linked RMSE (max),R.M.1.1,"STD, EASA"
+TB-11,Privacy Budget & Utility Trade-off,M.SAF.RMSE,Safety-Linked RMSE (max),R.M.1.2,STD
+TB-12,Adversarial & Byzantine Robustness,M.FL.ATTACK_RES,Attack Resistance (success rate %),R.F.3.1,FL
+TB-12,Adversarial & Byzantine Robustness,M.FL.BYZ_TOL,Robust Aggregation Tolerance (%),R.F.3.2,FL
+TB-12,Adversarial & Byzantine Robustness,M.FL.ATTACK_DET,Attack Detection Rate,R.F.3.2,FL
+TB-13,Runtime Footprint on Representative Hardware,M.RT.LAT,Inference Latency (ms),R.F.1.2,FL
+TB-14,Attribution Fidelity & Stability,M.XAI.FIDE_STAB,Attribution Fidelity & Stability,R.E.1.2,XAI
+TB-14,Attribution Fidelity & Stability,M.XAI.FIDELITY,Attribution Fidelity Score,R.E.1.2,XAI
+TB-14,Attribution Fidelity & Stability,M.XAI.STABILITY,Attribution Stability Score,R.E.1.2,XAI

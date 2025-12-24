@@ -1,0 +1,22 @@
+[
+  {
+    "metric_id": "M.FL.NONIID",
+    "value": 98.10881935155962
+  },
+  {
+    "metric_id": "M.DATA.ODD_COV",
+    "value": 100.0
+  },
+  {
+    "metric_id": "M.DATA.SPLIT_INT",
+    "value": 100.0
+  },
+  {
+    "metric_id": "M.PERF.COV",
+    "value": 100.0
+  },
+  {
+    "metric_id": "M.DATA.PREPROC_AUDIT",
+    "value": 0.95
+  }
+]

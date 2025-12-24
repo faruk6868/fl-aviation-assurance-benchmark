@@ -1,0 +1,240 @@
+authority_id,requirement_id,requirement_title,pillar,metric_id,metric_name,unit,direction,hazard_link,test_id,observed,Cat_thresh,Haz_thresh,Maj_thresh,pass_level,status,comment
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T1,0.9887127372565468,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1887).
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T2,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T3,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T4,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T6,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T7,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T8,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T9,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T11,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M1,Global Model Accuracy,ratio,max,FN,T12,0.9875534514355528,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1876).
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T1,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T2,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T3,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T4,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T7,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M2,Precision (Global),ratio,max,FP,T12,0.6267281105990783,0.98,0.96,0.9,,FAIL,Violates Maj threshold by 0.2733 (below required value). Recalibrate decision thresholds or adjust loss weighting to curb false alarms.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T1,0.4393351800554017,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.3607 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T2,0.6376146788990825,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1624 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T3,0.555045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.245 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T4,0.6055045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1945 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T7,0.6697247706422018,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1303 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M3,Recall (Global),ratio,max,FN,T12,0.6238532110091743,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1761 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T1,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T2,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T3,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T4,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T7,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M4,F1-Score (Global),ratio,max,FN_FP,T12,0.6252873563218391,0.9898891907999072,0.96,0.9,,FAIL,Violates Maj threshold by 0.2747 (below required value). Balance precision/recall via class weighting or adaptive thresholds.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M5,RMSE,cycles,min,delay,T1,16.01161003112793,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.708 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M5,RMSE,cycles,min,delay,T2,16.039268493652344,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.736 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M5,RMSE,cycles,min,delay,T3,16.113086700439453,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.809 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M5,RMSE,cycles,min,delay,T4,16.45545768737793,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 9.152 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M5,RMSE,cycles,min,delay,T12,37.69907379150391,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 30.4 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M6,Score Function (Prognostics),score,min,delay,T1,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M6,Score Function (Prognostics),score,min,delay,T2,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M6,Score Function (Prognostics),score,min,delay,T3,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M6,Score Function (Prognostics),score,min,delay,T4,,,,,,,
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M6,Score Function (Prognostics),score,min,delay,T12,336679.6170726881,5.678310037436779,8.398310284401864,14.562012024204208,,FAIL,Violates Maj threshold by 3.367e+05 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M7,AUC,ratio,max,disc,T1,0.9916045270808324,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.0116).
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M7,AUC,ratio,max,disc,T2,0.9922120222098424,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.01221).
+EASA,R.M.1.2,Model Test Evaluation (LM-09),General,M7,AUC,ratio,max,disc,T12,0.9897880746768188,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.009788).
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T1,0.9887127372565468,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1887).
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T2,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T3,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T4,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T6,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T7,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T8,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T9,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T11,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M1,Global Model Accuracy,ratio,max,FN,T12,0.9875534514355528,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1876).
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M6,Score Function (Prognostics),score,min,delay,T1,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M6,Score Function (Prognostics),score,min,delay,T2,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M6,Score Function (Prognostics),score,min,delay,T3,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M6,Score Function (Prognostics),score,min,delay,T4,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M6,Score Function (Prognostics),score,min,delay,T12,336679.6170726881,5.678310037436779,8.398310284401864,14.562012024204208,,FAIL,Violates Maj threshold by 3.367e+05 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M38,Inference Latency (ms),ms,min,responsiveness,T1,,,,,,,
+EASA,R.M.1.3,Inference Model Test Evaluation (IMP-08),General,M38,Inference Latency (ms),ms,min,responsiveness,T12,0.0050945312501937,50.0,80.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.99).
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T1,0.9887127372565468,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1887).
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T2,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T3,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T4,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T6,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T7,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T8,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T9,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T11,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M1,Global Model Accuracy,ratio,max,FN,T12,0.9875534514355528,0.99998,0.998,0.8,Maj,PASS,Meets Maj threshold (margin +0.1876).
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T1,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T2,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T3,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T4,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T7,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M2,Precision (Global),ratio,max,FP,T12,0.6267281105990783,0.98,0.96,0.9,,FAIL,Violates Maj threshold by 0.2733 (below required value). Recalibrate decision thresholds or adjust loss weighting to curb false alarms.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T1,0.4393351800554017,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.3607 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T2,0.6376146788990825,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1624 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T3,0.555045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.245 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T4,0.6055045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1945 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T7,0.6697247706422018,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1303 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M3,Recall (Global),ratio,max,FN,T12,0.6238532110091743,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1761 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T1,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T2,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T3,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T4,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T7,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M4,F1-Score (Global),ratio,max,FN_FP,T12,0.6252873563218391,0.9898891907999072,0.96,0.9,,FAIL,Violates Maj threshold by 0.2747 (below required value). Balance precision/recall via class weighting or adaptive thresholds.
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M39,False Positive Rate,ratio,min,FP,T1,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M39,False Positive Rate,ratio,min,FP,T12,0.0062897965522596,2e-05,0.002,0.2,Maj,PASS,Meets Maj threshold (margin +0.1937).
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M40,False Negative Rate,ratio,min,FN,T1,,,,,,,
+FDA_ISO,R.M.1.5,Hazard-driven Metrics (SAE ARP),General,M40,False Negative Rate,ratio,min,FN,T12,0.3761467889908257,2e-05,0.002,0.2,,FAIL,Violates Maj threshold by 0.1761 (above required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T1,,,,,,,
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T2,,,,,,,
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T3,,,,,,,
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T4,,,,,,,
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T7,,,,,,,
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M2,Precision (Global),ratio,max,FP,T12,0.6267281105990783,0.98,0.96,0.9,,FAIL,Violates Maj threshold by 0.2733 (below required value). Recalibrate decision thresholds or adjust loss weighting to curb false alarms.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T1,0.4393351800554017,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.3607 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T2,0.6376146788990825,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1624 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T3,0.555045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.245 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T4,0.6055045871559633,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1945 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T7,0.6697247706422018,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1303 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M3,Recall (Global),ratio,max,FN,T12,0.6238532110091743,0.99998,0.998,0.8,,FAIL,Violates Maj threshold by 0.1761 (below required value). Increase recall through threshold tuning or focused retraining on failure cases.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M7,AUC,ratio,max,disc,T1,0.9916045270808324,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.0116).
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M7,AUC,ratio,max,disc,T2,0.9922120222098424,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.01221).
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M7,AUC,ratio,max,disc,T12,0.9897880746768188,0.98,0.96,0.9,Cat,PASS,Meets Cat threshold (margin +0.009788).
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M28,Calibration Error (ECE),ratio,min,calibration,T12,0.0478459657312108,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.002154).
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M29,Confidence Interval Width (95% CI),abs_ratio,min,uncertainty,T1,1.2648448944091797,0.05,0.08,0.1,,FAIL,Violates Maj threshold by 1.165 (above required value). Refine predictive intervals via ensembling or Bayesian calibration.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M29,Confidence Interval Width (95% CI),abs_ratio,min,uncertainty,T2,1.2708920288085936,0.05,0.08,0.1,,FAIL,Violates Maj threshold by 1.171 (above required value). Refine predictive intervals via ensembling or Bayesian calibration.
+FDA_ISO,R.M.1.6,Statistical Confidence (FDA),General,M29,Confidence Interval Width (95% CI),abs_ratio,min,uncertainty,T12,1.604189453125,0.05,0.08,0.1,,FAIL,Violates Maj threshold by 1.504 (above required value). Refine predictive intervals via ensembling or Bayesian calibration.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M5,RMSE,cycles,min,delay,T1,16.01161003112793,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.708 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M5,RMSE,cycles,min,delay,T2,16.039268493652344,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.736 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M5,RMSE,cycles,min,delay,T3,16.113086700439453,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 8.809 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M5,RMSE,cycles,min,delay,T4,16.45545768737793,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 9.152 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M5,RMSE,cycles,min,delay,T12,37.69907379150391,5.098404864362,5.918376416079,7.30374889782,,FAIL,Violates Maj threshold by 30.4 (above required value). Improve RUL estimator accuracy or extend the proactive maintenance lead time.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M8,Generalization Gap,abs_ratio,min,overfit,T2,0.5697834915886127,0.02,0.03,0.05,,FAIL,Violates Maj threshold by 0.5198 (above required value). Apply regularisation or data augmentation to shrink the generalisation gap.
+EASA,R.M.1.4,Generalization Bounds (LM-04),General,M8,Generalization Gap,abs_ratio,min,overfit,T12,0.6212558883156102,0.02,0.03,0.05,,FAIL,Violates Maj threshold by 0.5713 (above required value). Apply regularisation or data augmentation to shrink the generalisation gap.
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T2,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T3,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T4,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T5,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T6,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T7,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T8,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T9,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M9,Convergence Rate,delta_per_round,min,staleness,T12,583.2383815595972,0.0004000000000004,80.00000000000009,20000.0,Maj,PASS,Meets Maj threshold (margin +1.942e+04).
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T2,50.0,50.0,60.0,70.0,Cat,PASS,Meets Cat threshold (margin +0).
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T3,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T4,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T5,50.0,50.0,60.0,70.0,Cat,PASS,Meets Cat threshold (margin +0).
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T8,50.0,50.0,60.0,70.0,Cat,PASS,Meets Cat threshold (margin +0).
+EASA,R.C.1.2,Operational Feasibility,General,M10,Communication Rounds to Convergence,rounds,min,staleness,T12,60.0,50.0,60.0,70.0,Haz,PASS,Meets Haz threshold (margin +0).
+EASA,R.C.1.2,Operational Feasibility,General,M11,Communication Cost (MB per round),MB,min,availability,T5,0.2666244506835937,50.0,75.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.73).
+EASA,R.C.1.2,Operational Feasibility,General,M11,Communication Cost (MB per round),MB,min,availability,T7,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M11,Communication Cost (MB per round),MB,min,availability,T12,0.3910491943359376,50.0,75.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.61).
+EASA,R.C.1.2,Operational Feasibility,General,M30,Time to Convergence (seconds),seconds,min,staleness,T2,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M30,Time to Convergence (seconds),seconds,min,staleness,T5,250.0,3600.0,5400.0,7200.0,Cat,PASS,Meets Cat threshold (margin +3350).
+EASA,R.C.1.2,Operational Feasibility,General,M30,Time to Convergence (seconds),seconds,min,staleness,T12,110.91576639999994,3600.0,5400.0,7200.0,Cat,PASS,Meets Cat threshold (margin +3489).
+EASA,R.C.1.2,Operational Feasibility,General,M36,Client Dropout Tolerance,ratio,max,availability,T8,0.8,0.85,0.75,0.65,Haz,PASS,Meets Haz threshold (margin +0.05).
+EASA,R.C.1.2,Operational Feasibility,General,M36,Client Dropout Tolerance,ratio,max,availability,T12,0.3,0.85,0.75,0.65,,FAIL,"Violates Maj threshold by 0.35 (below required value). Optimise communication budget and scheduling (compression, partial participation)."
+EASA,R.C.1.2,Operational Feasibility,General,M37,Memory Footprint (MB),MB,min,availability,T5,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M37,Memory Footprint (MB),MB,min,availability,T12,0.0444374084472656,1024.0,1536.0,2048.0,Cat,PASS,Meets Cat threshold (margin +1024).
+EASA,R.C.1.2,Operational Feasibility,General,M38,Inference Latency (ms),ms,min,responsiveness,T1,,,,,,,
+EASA,R.C.1.2,Operational Feasibility,General,M38,Inference Latency (ms),ms,min,responsiveness,T12,0.0050945312501937,50.0,80.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.99).
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T2,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T3,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T4,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T5,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T6,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T7,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T8,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T9,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M9,Convergence Rate,delta_per_round,min,staleness,T12,583.2383815595972,0.0004000000000004,80.00000000000009,20000.0,Maj,PASS,Meets Maj threshold (margin +1.942e+04).
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M23,Model Update Similarity (Cosine),ratio,max,security,T6,,,,,,,
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M23,Model Update Similarity (Cosine),ratio,max,security,T12,0.0008010387651721,0.95,0.92,0.9,,FAIL,Violates Maj threshold by 0.8992 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T9,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.3230. Trigger drift response plan and recalibrate with recent operational data.
+EASA,R.L.1.2,Metric Stability Monitoring (SA-03),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T12,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.2798. Trigger drift response plan and recalibrate with recent operational data.
+EASA,R.C.1.1,Communication Efficiency,General,M11,Communication Cost (MB per round),MB,min,availability,T5,0.2666244506835937,50.0,75.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.73).
+EASA,R.C.1.1,Communication Efficiency,General,M11,Communication Cost (MB per round),MB,min,availability,T7,,,,,,,
+EASA,R.C.1.1,Communication Efficiency,General,M11,Communication Cost (MB per round),MB,min,availability,T12,0.3910491943359376,50.0,75.0,100.0,Cat,PASS,Meets Cat threshold (margin +49.61).
+EASA,R.C.1.1,Communication Efficiency,General,M12,Communication Efficiency Ratio,x,max,availability,T5,3.7179450323580143,10.0,7.0,5.0,,FAIL,"Violates Maj threshold by 1.282 (below required value). Optimise communication budget and scheduling (compression, partial participation)."
+EASA,R.C.1.1,Communication Efficiency,General,M12,Communication Efficiency Ratio,x,max,availability,T12,2.525394415177283,10.0,7.0,5.0,,FAIL,"Violates Maj threshold by 2.475 (below required value). Optimise communication budget and scheduling (compression, partial participation)."
+EASA,R.C.1.1,Communication Efficiency,General,M37,Memory Footprint (MB),MB,min,availability,T5,,,,,,,
+EASA,R.C.1.1,Communication Efficiency,General,M37,Memory Footprint (MB),MB,min,availability,T12,0.0444374084472656,1024.0,1536.0,2048.0,Cat,PASS,Meets Cat threshold (margin +1024).
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M13,Local Model Variance,variance,min,fairness,T2,,,,,,,
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M13,Local Model Variance,variance,min,fairness,T3,0.0001074655870405,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04989). Per-client accuracy range 0.9432-0.9794.
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M13,Local Model Variance,variance,min,fairness,T4,,,,,,,
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M13,Local Model Variance,variance,min,fairness,T10,0.000256459399152,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04974). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M13,Local Model Variance,variance,min,fairness,T12,0.0361488955460356,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.01385). Per-client accuracy range 0.3913-0.9698.
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M35,Local Accuracy Variance,variance,min,fairness,T3,,,,,,,
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M35,Local Accuracy Variance,variance,min,fairness,T4,5.913993930545581e-05,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04994). Per-client accuracy range 0.9574-0.9784.
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M35,Local Accuracy Variance,variance,min,fairness,T10,0.000256459399152,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04974). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.D.4.1,FDA Stability Requirement,General,M35,Local Accuracy Variance,variance,min,fairness,T12,0.0361488955460356,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.01385). Per-client accuracy range 0.3913-0.9698.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M13,Local Model Variance,variance,min,fairness,T2,,,,,,,
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M13,Local Model Variance,variance,min,fairness,T3,0.0001074655870405,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04989). Per-client accuracy range 0.9432-0.9794.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M13,Local Model Variance,variance,min,fairness,T4,,,,,,,
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M13,Local Model Variance,variance,min,fairness,T10,0.000256459399152,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04974). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M13,Local Model Variance,variance,min,fairness,T12,0.0361488955460356,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.01385). Per-client accuracy range 0.3913-0.9698.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M14,Inter-Client Performance Std Dev,std,min,fairness,T3,0.0103665610035632,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.03963). Per-client accuracy range 0.9432-0.9794.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M14,Inter-Client Performance Std Dev,std,min,fairness,T4,,,,,,,
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M14,Inter-Client Performance Std Dev,std,min,fairness,T10,0.0160143497886131,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.03399). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M14,Inter-Client Performance Std Dev,std,min,fairness,T12,0.190128628949024,0.05,0.07,0.1,,FAIL,Violates Maj threshold by 0.09013 (above required value). Per-client accuracy range 0.3913-0.9698. Apply fairness-aware aggregation or reweight under-performing client groups.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M15,Statistical Parity Difference,abs_ratio,min,fairness,T10,0.0014369176318706,0.02,0.05,0.1,Cat,PASS,Meets Cat threshold (margin +0.01856). Group positive-rate spread 0.0104-0.0119.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M15,Statistical Parity Difference,abs_ratio,min,fairness,T12,0.0050256735770649,0.02,0.05,0.1,Cat,PASS,Meets Cat threshold (margin +0.01497). Group positive-rate spread 0.0144-0.0194.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M16,Equalized Odds Difference,abs_ratio,min,fairness,T10,0.0373641304347825,0.02,0.05,0.1,Haz,PASS,Meets Haz threshold (margin +0.01264). Group recall spread 0.4844-0.5217.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M16,Equalized Odds Difference,abs_ratio,min,fairness,T12,0.06462063086104,0.02,0.05,0.1,Maj,PASS,Meets Maj threshold (margin +0.03538). Group recall spread 0.5942-0.6588.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M17,Jain Fairness Index,ratio,max,fairness,T10,0.9989158974933292,0.95,0.9,0.85,Cat,PASS,Meets Cat threshold (margin +0.04892). Evaluated across 3 groups (min support 4310).
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M17,Jain Fairness Index,ratio,max,fairness,T12,0.998028660048374,0.95,0.9,0.85,Cat,PASS,Meets Cat threshold (margin +0.04803). Evaluated across 3 groups (min support 4310).
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M35,Local Accuracy Variance,variance,min,fairness,T3,,,,,,,
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M35,Local Accuracy Variance,variance,min,fairness,T4,5.913993930545581e-05,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04994). Per-client accuracy range 0.9574-0.9784.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M35,Local Accuracy Variance,variance,min,fairness,T10,0.000256459399152,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.04974). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.F.1.1,Participant Fairness (FDA),General,M35,Local Accuracy Variance,variance,min,fairness,T12,0.0361488955460356,0.05,0.08,0.12,Cat,PASS,Meets Cat threshold (margin +0.01385). Per-client accuracy range 0.3913-0.9698.
+FDA_ISO,R.F.1.2,Benefit Equity,General,M14,Inter-Client Performance Std Dev,std,min,fairness,T3,0.0103665610035632,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.03963). Per-client accuracy range 0.9432-0.9794.
+FDA_ISO,R.F.1.2,Benefit Equity,General,M14,Inter-Client Performance Std Dev,std,min,fairness,T4,,,,,,,
+FDA_ISO,R.F.1.2,Benefit Equity,General,M14,Inter-Client Performance Std Dev,std,min,fairness,T10,0.0160143497886131,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.03399). Per-client accuracy range 0.9375-0.9897.
+FDA_ISO,R.F.1.2,Benefit Equity,General,M14,Inter-Client Performance Std Dev,std,min,fairness,T12,0.190128628949024,0.05,0.07,0.1,,FAIL,Violates Maj threshold by 0.09013 (above required value). Per-client accuracy range 0.3913-0.9698. Apply fairness-aware aggregation or reweight under-performing client groups.
+FDA_ISO,R.F.1.2,Benefit Equity,General,M17,Jain Fairness Index,ratio,max,fairness,T10,0.9989158974933292,0.95,0.9,0.85,Cat,PASS,Meets Cat threshold (margin +0.04892). Evaluated across 3 groups (min support 4310).
+FDA_ISO,R.F.1.2,Benefit Equity,General,M17,Jain Fairness Index,ratio,max,fairness,T12,0.998028660048374,0.95,0.9,0.85,Cat,PASS,Meets Cat threshold (margin +0.04803). Evaluated across 3 groups (min support 4310).
+FDA_ISO,R.F.1.2,Benefit Equity,General,M18,Client Contribution (Shapley Value),relative,monitor,participation,T10,,,,,,,
+FDA_ISO,R.F.1.2,Benefit Equity,General,M18,Client Contribution (Shapley Value),relative,monitor,participation,T12,0.0,nan,nan,nan,Monitor,MONITOR,Metric monitored without gating threshold.
+FDA_ISO,R.D.5.1,Client Data Distribution Characterization,General,M19,KL Divergence,nats,min,distribution,T2,,,,,,,
+FDA_ISO,R.D.5.1,Client Data Distribution Characterization,General,M19,KL Divergence,nats,min,distribution,T3,,,,,,,
+FDA_ISO,R.D.5.1,Client Data Distribution Characterization,General,M19,KL Divergence,nats,min,distribution,T4,,,,,,,
+FDA_ISO,R.D.5.1,Client Data Distribution Characterization,General,M19,KL Divergence,nats,min,distribution,T12,3.765529249228086,0.2,0.35,0.5,,FAIL,Violates Maj threshold by 3.266 (above required value). Mitigate client heterogeneity via reweighting or shared feature normalisation.
+EASA,R.P.1.1,Privacy Preservation,General,M20,Privacy Budget (Epsilon),epsilon,min,privacy,T7,5.0,3.0,5.0,8.0,Haz,PASS,Meets Haz threshold (margin +0).
+EASA,R.P.1.1,Privacy Preservation,General,M20,Privacy Budget (Epsilon),epsilon,min,privacy,T12,5.0,3.0,5.0,8.0,Haz,PASS,Meets Haz threshold (margin +0).
+EASA,R.P.1.2,Attack Protection,General,M21,Attack Detection Rate,ratio,max,security,T6,0.0,0.95,0.9,0.85,,FAIL,Violates Maj threshold by 0.85 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.P.1.2,Attack Protection,General,M21,Attack Detection Rate,ratio,max,security,T12,0.0,0.95,0.9,0.85,,FAIL,Violates Maj threshold by 0.85 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.P.1.2,Attack Protection,General,M22,Byzantine Robustness Score,ratio,max,security,T6,0.992528115852719,0.92,0.88,0.85,Cat,PASS,Meets Cat threshold (margin +0.07253).
+EASA,R.P.1.2,Attack Protection,General,M22,Byzantine Robustness Score,ratio,max,security,T12,0.9983018139714396,0.92,0.88,0.85,Cat,PASS,Meets Cat threshold (margin +0.0783).
+EASA,R.P.1.3,Robust Aggregation,General,M21,Attack Detection Rate,ratio,max,security,T6,0.0,0.95,0.9,0.85,,FAIL,Violates Maj threshold by 0.85 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.P.1.3,Robust Aggregation,General,M21,Attack Detection Rate,ratio,max,security,T12,0.0,0.95,0.9,0.85,,FAIL,Violates Maj threshold by 0.85 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.P.1.3,Robust Aggregation,General,M22,Byzantine Robustness Score,ratio,max,security,T6,0.992528115852719,0.92,0.88,0.85,Cat,PASS,Meets Cat threshold (margin +0.07253).
+EASA,R.P.1.3,Robust Aggregation,General,M22,Byzantine Robustness Score,ratio,max,security,T12,0.9983018139714396,0.92,0.88,0.85,Cat,PASS,Meets Cat threshold (margin +0.0783).
+EASA,R.P.1.3,Robust Aggregation,General,M23,Model Update Similarity (Cosine),ratio,max,security,T6,,,,,,,
+EASA,R.P.1.3,Robust Aggregation,General,M23,Model Update Similarity (Cosine),ratio,max,security,T12,0.0008010387651721,0.95,0.92,0.9,,FAIL,Violates Maj threshold by 0.8992 (below required value). Enable robust aggregation and investigate anomalous client behaviours.
+EASA,R.L.1.3,ODD/Performance Monitoring (EXP-05/06),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T9,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.3230. Trigger drift response plan and recalibrate with recent operational data.
+EASA,R.L.1.3,ODD/Performance Monitoring (EXP-05/06),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T12,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.2798. Trigger drift response plan and recalibrate with recent operational data.
+FDA_ISO,R.L.1.5,Lifecycle Monitoring (FDA TPLC),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T9,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.3230. Trigger drift response plan and recalibrate with recent operational data.
+FDA_ISO,R.L.1.5,Lifecycle Monitoring (FDA TPLC),General,M24,Drift Detection (KS p-value),p_value,alpha,drift,T12,0.0,0.01,0.02,0.05,Cat,ALARM,Alarm triggered at Cat (value 0 < alpha 0.01). KS statistic 0.2798. Trigger drift response plan and recalibrate with recent operational data.
+FDA_ISO,R.L.1.5,Lifecycle Monitoring (FDA TPLC),General,M36,Client Dropout Tolerance,ratio,max,availability,T8,0.8,0.85,0.75,0.65,Haz,PASS,Meets Haz threshold (margin +0.05).
+FDA_ISO,R.L.1.5,Lifecycle Monitoring (FDA TPLC),General,M36,Client Dropout Tolerance,ratio,max,availability,T12,0.3,0.85,0.75,0.65,,FAIL,"Violates Maj threshold by 0.35 (below required value). Optimise communication budget and scheduling (compression, partial participation)."
+EASA,R.D.2.1,Data Quality Requirements (DQR),General,M25,Data Quality Score,ratio,max,data_quality,T2,,,,,,,
+EASA,R.D.2.1,Data Quality Requirements (DQR),General,M25,Data Quality Score,ratio,max,data_quality,T9,,,,,,,
+EASA,R.D.2.1,Data Quality Requirements (DQR),General,M25,Data Quality Score,ratio,max,data_quality,T12,1.0,0.9,0.85,0.8,Cat,PASS,Meets Cat threshold (margin +0.1).
+EASA,R.D.2.2,Data Verification & Validation,General,M25,Data Quality Score,ratio,max,data_quality,T2,,,,,,,
+EASA,R.D.2.2,Data Verification & Validation,General,M25,Data Quality Score,ratio,max,data_quality,T9,,,,,,,
+EASA,R.D.2.2,Data Verification & Validation,General,M25,Data Quality Score,ratio,max,data_quality,T12,1.0,0.9,0.85,0.8,Cat,PASS,Meets Cat threshold (margin +0.1).
+EASA,R.D.1.1,Define ODD Parameters,General,M26,ODD Coverage Percentage,ratio,max,coverage,T12,0.9,0.98,0.95,0.9,Maj,PASS,Meets Maj threshold (margin +0).
+FDA_ISO,R.D.1.2,ODD Coverage Assurance (ISO/PAS 21448),General,M26,ODD Coverage Percentage,ratio,max,coverage,T12,0.9,0.98,0.95,0.9,Maj,PASS,Meets Maj threshold (margin +0).
+EASA,R.M.2.2,"Adverse Condition Robustness (Train, LM-13)",General,M27,Adversarial Robustness (ASR),ratio,min,security,T12,0.0016981860285604,0.15,0.2,0.3,Cat,PASS,Meets Cat threshold (margin +0.1483).
+EASA,R.M.2.3,"Adverse Condition Robustness (Inference, IMP-10)",General,M27,Adversarial Robustness (ASR),ratio,min,security,T12,0.0016981860285604,0.15,0.2,0.3,Cat,PASS,Meets Cat threshold (margin +0.1483).
+FAA,R.M.2.5,Stress Testing (FAA),General,M27,Adversarial Robustness (ASR),ratio,min,security,T12,0.0016981860285604,0.15,0.2,0.3,Cat,PASS,Meets Cat threshold (margin +0.1483).
+EASA,R.M.2.4,Robustness Metrics (LM-02),General,M28,Calibration Error (ECE),ratio,min,calibration,T12,0.0478459657312108,0.05,0.07,0.1,Cat,PASS,Meets Cat threshold (margin +0.002154).
+EASA,R.M.3.1,Model Explainability,General,M31,Model Explainability Score (SHAP),ratio,max,assurance,T11,0.413066416978836,0.7,0.65,0.6,,FAIL,Violates Maj threshold by 0.1869 (below required value). Review explainability pipeline and refresh attribution baselines.
+EASA,R.M.3.1,Model Explainability,General,M31,Model Explainability Score (SHAP),ratio,max,assurance,T12,0.231410413980484,0.7,0.65,0.6,,FAIL,Violates Maj threshold by 0.3686 (below required value). Review explainability pipeline and refresh attribution baselines.
+EASA,R.M.3.2,Feature Attribution Requirements,General,M32,Feature Attribution Stability,ratio,max,assurance,T11,1.0,0.85,0.8,0.75,Cat,PASS,Meets Cat threshold (margin +0.15).
+EASA,R.M.3.2,Feature Attribution Requirements,General,M32,Feature Attribution Stability,ratio,max,assurance,T12,1.0,0.85,0.8,0.75,Cat,PASS,Meets Cat threshold (margin +0.15).
+EASA,R.L.2.1,Model & Data versioning,General,M33,Model Version Consistency,ratio,max,traceability,T12,1.0,0.99,0.98,0.95,Cat,PASS,Meets Cat threshold (margin +0.01).
+EASA,R.L.2.2,Traceability & Reproducibility,General,M34,Reproducibility Score,ratio,max,traceability,T12,1.0,0.97,0.95,0.9,Cat,PASS,Meets Cat threshold (margin +0.03).

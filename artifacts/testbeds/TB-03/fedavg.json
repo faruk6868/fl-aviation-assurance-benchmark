@@ -1,0 +1,34 @@
+[
+  {
+    "metric_id": "M.SAF.ACC",
+    "value": 0.9653158086893027
+  },
+  {
+    "metric_id": "M.SAF.REC",
+    "value": 0.49504950495049505
+  },
+  {
+    "metric_id": "M.SAF.FPFN",
+    "value": 0.504950495049505
+  },
+  {
+    "metric_id": "M.SAF.FPR_MAX",
+    "value": 0.016679302501895376
+  },
+  {
+    "metric_id": "M.SAF.FNR_MAX",
+    "value": 0.504950495049505
+  },
+  {
+    "metric_id": "M.CLS.Pre",
+    "value": 0.5319148936170213
+  },
+  {
+    "metric_id": "M.CLS.F1_Sc",
+    "value": 0.5128205128205129
+  },
+  {
+    "metric_id": "M.CLS.AUC",
+    "value": 0.9232767097786352
+  }
+]

@@ -1,0 +1,98 @@
+Normative Clause  ID,Normative Clauses,Source Document,,,,,,
+FAA-001,"AI must be trustworthy: safe, lawful, robust, ethical, and unbiased.","FAA AI Safety Assurance Roadmap, page 3 version 1",,,,Authorities / Source,Num. of requirements,ID.s
+FAA-002,"V&V must address explainability, predictability, auditability, and traceability.","FAA – Office of NextGen Certification Research Plan for AI Applications, Research Plan for Certification of New Technologies into the National page 7",,,,FAA(AI Safety Assurance Roadmap),12,FAA-001 to FAA-013
+FAA-003,Support consensus standards via SAE G-34 (ED-324 / ARP6983 collaboration).,"FAA AI Safety Assurance Roadmap, page 4",,,,EASA(AI Concept Paper Issue 2),50,EASA-001 to EASA-050
+FAA-004,"Adopt FAA's phased approval structure: Preliminary Assessments, Compliance, Approvals."," FAA - AI/ML Certification
+Framework Fall 2024 REDAC",,,,FDA(AI/ML SaMD Guidance),7,FDA-001 to FDA-007
+FAA-005,Leverage existing regulation and performance-based requirements.,"FAA -FAA Roadmap on
+Artificial Intelligence Safety page 5",,,,Standards(ISO/SAE/DO-178C),6,STD-001 to STD-006
+FAA-006,Use Overarching Properties (OPs) as alternative means of compliance where applicable.,"FAA-Assurance of machine learning based aerospace systems_towards...., FAA AI Safety Assurance Roadmap page 20",,,,FL-Specific(Survey/Literature),7,FL-001 to FL-007
+FAA-007,Assure the safety of AI using adapted safety assurance methods.,"FAA AI Safety Assurance Roadmap, pape 4",,,,XAI/Explainability,3,XAI-001 to XAI-003
+FAA-008,AI algorithm must be locked and not learn post-deployment.,"FAA AI Safety Assurance Roadmap page 3, 7, 10, 13, ",,,,SUM,85,
+FAA-009,Ensure clear separation of training vs testing vs certification demonstration data.,FAA AI Safety Assurance Roadmap page 8,,,,,,
+FAA-010,"Certify the change process for Learning AI (training, aggregation, validation, deployment).","FAA AI Safety Assurance Roadmap, page 10",,,,,,
+FAA-011,Recognize AI/ML uniqueness: learned implementation breaks traditional hierarchical links.,"FAA’s Roadmap on AI Safety, page 4",,,,,,
+FAA-012,Perform stress testing from item to aircraft-level interfaces to detect anomalous behaviors.,"FAA AI Safety Assurance Roadmap, page 16",,,,,,
+EASA-001,"Integrate EASA's trustworthiness building blocks (analysis, assurance, human factors, safety risk mitigation).","EASA AI Concept Paper Issue 2, page 27-28",,,,,,
+EASA-002,"Define and document the Concept of Operations (ConOps), including the identification and characterization of end users and their operational tasks, allocation of responsibilities, determination of all AI-related system components, and explicit description of Operational Domain and Operational Design Domain boundaries, scenarios, and constraints.. CO-04","EASA AI Concept Paper Issue 2, page 161, 176, 182, 186, 213, 234",,,,,,
+EASA-003,Define AI Involvement Level to determine assurance rigor.,"EASA AI Concept Paper Issue 2, page 23",,,,,,
+EASA-004,Perform functional analysis with functional decomposition and allocation. CO-06,"EASA AI Concept Paper Issue 2, page 16, 33 ?	",,,,,,
+EASA-005,Identify which data must be recorded for continuous safety assessment. SA-02,"EASA AI Concept Paper Issue 2, page 39",,,,,,
+EASA-006,Implement data-driven AI continuous safety assessment based on operational data (ORG-03).,"EASA AI Concept Paper Issue 2, page 134",,,,,,
+EASA-007,Perform an ethics-based trustworthiness assessment for ML systems (ET-01).,"EASA AI Concept Paper Issue 2, page 134",,,,,,
+EASA-008,Comply with national/EU data protection regulations (ET-03).,"EASA AI Concept Paper Issue 2, page 141",,,,,,
+EASA-009,Identify new competencies for users and mitigate training gaps (ET-07).,"EASA AI Concept Paper Issue 2, page 141",,,,,,
+EASA-010,Assess risk of de-skilling and mitigate via training (ET-08).,"EASA AI Concept Paper Issue 2, page 141",,,,,,
+EASA-011,Describe the proposed learning assurance process considering development assurance (DA-01).,"EASA AI Concept Paper Issue 2, page 166",,,,,,
+EASA-012,Define the set of parameters for the AI/ML ODD and trace to OD. DA-03,"EASA AI Concept Paper Issue 2, page 54 ",,,,,,
+EASA-013,"Capture Data Quality Requirements (relevance, origin, accuracy, integrity, completeness, representativeness). DA-04","EASA AI Concept Paper Issue 2, page 57",,,,,,
+EASA-014,Validate all captured requirements prior to development. DA-07,"EASA AI Concept Paper Issue 2, page 58",,,,,,
+EASA-015,Identify data sources and collect data per ODD while meeting DQRs. DM-01,"EASA AI Concept Paper Issue 2, page 60",,,,,,
+EASA-016,"Distribute data into independent train, validation, and test sets (DM-09).","EASA AI Concept Paper Issue 2, page 202",,,,,,
+EASA-017,Perform data verification for ODD appropriateness and dataset adequacy (DM-08).,"EASA AI Concept Paper Issue 2, page 78, 172, 198",,,,,,
+EASA-018,Capture requirements for learning management and training processes including robustness/stability metrics (LM-02).,"EASA AI Concept Paper Issue 2, page 68",,,,,,
+EASA-019,Provide quantifiable generalization bounds (LM-04).,"EASA AI Concept Paper Issue 2, page 169",,,,,,
+EASA-020,Evaluate trained model on an independent test set and document results (LM-09).,"EASA AI Concept Paper Issue 2, page 71, 170, 206",,,,,,
+EASA-021,Verify the stability of the trained model (LM-12).,"EASA AI Concept Paper Issue 2, page 72,  171",,,,,,
+EASA-022,Verify robustness of the trained model under adverse training conditions (LM-13).,"EASA AI Concept Paper Issue 2, page 72,  171",,,,,,
+EASA-023,Evaluate inference model on independent test set (IMP-08).,"EASA AI Concept Paper Issue 2, page 77, 211",,,,,,
+EASA-024,Verify robustness of the inference model in adverse inference conditions (IMP-10).,"EASA AI Concept Paper Issue 2, page 77",,,,,,
+EASA-025,Apply configuration management to AI/ML lifecycle data and artifacts (CM-01).,"EASA AI Concept Paper Issue 2, page 80, 172",,,,,,
+EASA-026,Ensure quality/process assurance across development lifecycle (QA-01).,"EASA AI Concept Paper Issue 2, page 80, 172, ",,,,,,
+EASA-027,Perform impact assessment of model reuse (RU-01).,"EASA AI Concept Paper Issue 2, page 81",,,,,,
+EASA-028,Analyze COTS ML functions and deactivate unused functions (RU-02/RU-03).,"EASA AI Concept Paper Issue 2, page 81",,,,,,
+EASA-029,Reinforce individual situation awareness in system design (HF-02).,"EASA AI Concept Paper Issue 2, page 107",,,,,,
+EASA-030,Enable and support shared situation awareness (HF-03).,"EASA AI Concept Paper Issue 2, page 108",,,,,,
+EASA-031,Provide means to record operational data for post-ops explanation (EXP-09).,"EASA AI Concept Paper Issue 2, page 93, 173",,,,,,
+EASA-032,Present explanations to end user in a clear and unambiguous form (EXP-11).,"EASA AI Concept Paper Issue 2, page 101, 173",,,,,,
+EASA-033,Define the level of abstraction of explanations by task/situation/user (EXP-13).,"EASA AI Concept Paper Issue 2, page 101, 173",,,,,,
+EASA-034,Ensure validity of specified explanation for each relevant output (EXP-17).,"EASA AI Concept Paper Issue 2, page 173",,,,,,
+EASA-035,Online learning is out of scope and not accepted at this stage.,"EASA AI Concept Paper Issue 2, page 21, 265",,,,,,
+EASA-036,Identify information security risks including AI/ML-specific threats (IS-01/02).,"EASA AI Concept Paper Issue 2, page 42, 141, 261",,,,,,
+EASA-037,Validate security controls mitigating AI/ML risks (IS-03).,"EASA AI Concept Paper Issue 2, page 42, 140",,,,,,
+EASA-038,Monitor inputs (ODD bounds) and outputs (performance bounds) (EXP-05/06).,"EASA AI Concept Paper Issue 2, page 92",,,,,,
+EASA-039,Output confidence monitoring (EXP-07).,"EASA AI Concept Paper Issue 2, page 92",,,,,,
+EASA-040,Metric stability monitoring (SA-03).,"EASA AI Concept Paper Issue 2, page 39 ",,,,,,
+"EASA-041	","The applicant shall capture the requirements on data to be pre-processed and engineered for the inference model in development and for the operations.	","EASA Concept Paper, page 57
+",,,,,,
+"EASA-042	","The applicant shall describe the preliminary AI/ML constituent architecture, to serve as reference for related safety assessment and learning assurance objectives.	","EASA Concept Paper, DA-06, p.166
+",,,,,,
+"EASA-043	","The applicant shall document evidence that all derived requirements have been provided to the (sub)system processes, including the safety (support) assessment.	","EASA Concept Paper, DA-08, p.58
+",,,,,,
+"EASA-044	","The applicant shall document evidence of the validation of the derived requirements, and of the determination of any impact on the safety (support) assessment and (sub)system requirements.	","EASA Concept Paper, DA-09, p.58
+",,,,,,
+"EASA-045	",The applicant shall account for the bias-variance trade-off in the model family selection and shall provide evidence of reproducibility of the model training process.,"EASA Concept Paper, LM-07-SL, p.71
+",,,,,,
+"EASA-046	","The applicant shall ensure that the estimated bias and variance of the selected model meet the associated learning process management requirements.	","EASA Concept Paper, LM-08, p.71
+",,,,,,
+"EASA-047	","The applicant shall provide an analysis on the stability of the learning algorithms.	","EASA Concept Paper, LM-11, p. 72
+",,,,,,
+"EASA-048	","The applicant shall verify the anticipated generalisation bounds using the test data set.	","EASA Concept Paper, LM-14, p. 73
+",,,,,,
+"EASA-049	","The applicant shall verify that any transformation (conversion, optimisation, inference model development) performed during the trained model implementation step has not adversely altered the defined model properties.	","EASA Concept Paper, IMP-06, p.76
+",,,,,,
+"EASA-050	","The applicant shall perform and document the verification of the stability of the inference model.	","EASA Concept Paper, IMP-09, p.77
+",,,,,,
+FDA-001,Model performance shall remain stable and acceptable across heterogeneous clients and participant groups.,"Good Machine Learning Practice (GMLP) – FDA/HC/MHRA, Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations pg 27 and Consideration for the use of artificial intelligence to support regulatory decision.. page 4",,,,,,
+FDA-002,Ensure safety and effectiveness for all intended users.,"Content of Premarket Submissions for Device Software Functions (Final), Purpose/Applicability  ",,,,,,
+FDA-003,"Prevent data leakage between training, tuning, and testing splits with auditable safeguards.","Good Machine Learning Practice (GMLP) – FDA/HC/MHRA, Guiding Principles",,,,,,
+FDA-004,Report two-sided 95% confidence intervals for all primary performance estimates.,"Content of Premarket Submissions for Device Software Functions (Final), Documentation levels and evidence expectations  ?	",,,,,,
+FDA-005,Detect shifts in input data and performance over time (TPLC - Total Product Lifecycle).,"Good Machine Learning Practice (GMLP) – FDA/HC/MHRA, Guiding Principles, Guiding Principles",,,,,,
+FDA-006,Implement predetermined change control plan (PCCP) with regression validation.,"Marketing Submission Recommendations for a PCCP for AI?DSF (Final Guidance),Scope and PCCP contents  ",,,,,,
+FDA-007,Demonstrate fairness across heterogeneous clients and participant groups with worst-group performance meeting minimum acceptance.,"Good Machine Learning Practice (GMLP) – FDA/HC/MHRA, Guiding Principles  ",,,,,,
+STD-001,ODD coverage assurance: training data shall sufficiently cover the defined ODD including edge cases.,"ISO/PAS 21448:2022 Safety of the intended functionality (SOTIF), Scope/Overview ",,,,,,
+STD-002,Link performance metrics and thresholds to safety objectives and hazard analysis (SA-01).,SAE ARP4754A - NASA application report (objectives/FHA) -ARP4754A overview; FHA/CM/verification objectives,,,,,,
+STD-003,Prioritize metrics according to hazard drivers with stricter limits for false negatives when warranted.,"SAE ARP6983 (G?34 process standard for AI – WIP) plus ARP4761/4761A safety analysis practice, ARP6983 rationale/scope; ML safety case using ARP4761A methodology ",,,,,,
+STD-004,"Certification maintenance via secure data download, retest, and drift monitoring workflows (CCMRs).","NASA/FAA technical compendia referencing ARP4754A/CM objectives and verification matrices, “Configuration Management Process Objectives Comparison,” “Verification Matrix,” “Process Assurance Objectives”  ",,,,,,
+STD-005,"Ensure bidirectional traceability from requirements to data, model, verification cases, and results.","ARP4754A practice via NASA report (traceability and verification matrix), “Example Completed Verification Matrix,” validation/verification objectives  ",,,,,,
+STD-006,All ML artifacts shall be under configuration management with versioning and change control.,"ARP4754A (CM objectives) – NASA comparison tables, “Configuration Management Process Objectives Comparison”  ",,,,,,
+FL-001,"Characterize client-level data distributions: quantity skew, label skew, feature shift, temporal drift.",A Survey for Federated Learning Evaluations: Goals and Measures/ Taxonomy of evaluation goals/measures  ,,,,,,
+FL-002,Meet defined communication efficiency targets compatible with constrained aviation systems.,"Exploring the Practicality of Federated Learning: A Survey Towards the Communication Perspective, Communication bottlenecks/overheads ",,,,,,
+FL-003,Time-to-convergence and real-time constraints shall meet operational feasibility under representative deployment.,A Survey for Federated Learning Evaluations: Goals and Measures/ Effectiveness/efficiency metrics (convergence) ,,,,,,
+FL-004,"Privacy preservation (e.g., differential privacy) shall be applied to meet documented privacy requirements without violating performance minima.","Survey of Privacy Threats and Countermeasures in Federated Learning, Threats/countermeasures overview ",,,,,,
+FL-005,"Protection against inference attacks, gradient leakage, poisoning, and backdoor attacks under defined threat model.","Survey of Privacy Threats and Countermeasures in Federated Learning, Attack taxonomy and risks",,,,,,
+FL-006,Implement robust aggregation and/or attack detection where threat models require resilience to adversarial clients.,"Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark, Robustness dimension and methods",,,,,,
+FL-007,Benefits of the federated model shall be distributed equitably across clients with disparities monitored.,"Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark, Fairness dimension and metrics ",,,,,,
+XAI-001,"Provide human-understandable explanations of model scope, behavior, outputs, confidence, and limitations for operators.","Additive feature?attribution methods: a review on explainable ML, Review overview ",,,,,,
+XAI-002,"Produce feature attribution explanations with defined fidelity, quantitative stability across runs, and localization.","Stability Guarantees for Feature Attributions with Multiplicative Noise, Theoretical stability guarantees",,,,,,
+XAI-003,"Document attribution methods, configurations, data scope, and known limitations.","Additive-feature-attribution methods: a review on explainable artificial intelligence for fluid dynamics and heat transfer, Stability Guarantees for Feature Attributions with Multiplicative Smoothing",,,,,,

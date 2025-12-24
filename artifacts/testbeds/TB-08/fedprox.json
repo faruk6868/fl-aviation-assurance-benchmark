@@ -1,0 +1,18 @@
+[
+  {
+    "metric_id": "M.DRIFT.DETECT.MTTD",
+    "value": 0.0
+  },
+  {
+    "metric_id": "M.DRIFT.DETECT.RECALL",
+    "value": 0.55
+  },
+  {
+    "metric_id": "M.DRIFT.DETECT.FAR",
+    "value": 0.05
+  },
+  {
+    "metric_id": "M.DRIFT.KS",
+    "value": 0.368359375
+  }
+]

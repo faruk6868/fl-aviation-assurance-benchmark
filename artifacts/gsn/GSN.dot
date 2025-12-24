@@ -1,0 +1,856 @@
+digraph GSN {
+	graph [fontsize=10 rankdir=TB]
+	node [fontname=Helvetica fontsize=10 style=filled]
+	C_FHA_M1 [label="FHA assumptions M1: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M10 [label="FHA assumptions M10: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M11 [label="FHA assumptions M11: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M12 [label="FHA assumptions M12: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M13 [label="FHA assumptions M13: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M14 [label="FHA assumptions M14: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M15 [label="FHA assumptions M15: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M16 [label="FHA assumptions M16: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M17 [label="FHA assumptions M17: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M19 [label="FHA assumptions M19: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M2 [label="FHA assumptions M2: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M20 [label="FHA assumptions M20: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M21 [label="FHA assumptions M21: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M22 [label="FHA assumptions M22: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M23 [label="FHA assumptions M23: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M24 [label="FHA assumptions M24: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M25 [label="FHA assumptions M25: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M26 [label="FHA assumptions M26: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M27 [label="FHA assumptions M27: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M28 [label="FHA assumptions M28: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M29 [label="FHA assumptions M29: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M3 [label="FHA assumptions M3: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M30 [label="FHA assumptions M30: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M31 [label="FHA assumptions M31: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M32 [label="FHA assumptions M32: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M33 [label="FHA assumptions M33: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M34 [label="FHA assumptions M34: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M35 [label="FHA assumptions M35: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M36 [label="FHA assumptions M36: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M37 [label="FHA assumptions M37: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M38 [label="FHA assumptions M38: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M39 [label="FHA assumptions M39: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M4 [label="FHA assumptions M4: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M40 [label="FHA assumptions M40: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M5 [label="FHA assumptions M5: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09, Normal tail assumption (z=6.604), p_cycle=4.00e-11, two-sided" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M6 [label="FHA assumptions M6: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M7 [label="FHA assumptions M7: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M8 [label="FHA assumptions M8: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_FHA_M9 [label="FHA assumptions M9: hazard_rate_fh=1e-11, proc_fail=2e-06, cycles_per_fh=4.0, lead_time_cycles=25.0, alpha_ks=0.01, recall_target=0.99998, hazard_rate_adjusted_from=1e-09" fillcolor="#f0f0f0" shape=ellipse]
+	C_ODD [label="Operational Design Domain scope" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T1 [label="T1 scenario: objective=Establish performance baseline with centralized training on full C-MAPSS dataset, dataset_configuration=Full C-MAPSS (FD001, FD002, FD003, FD004); 80/10/10 train/val/test split, fl_configuration=N/A (Centralized), success_criteria=Accuracy ?0.92, RMSE ?15, Score ?1000; Establishes baseline, duration_estimate=4-6 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T10 [label="T10 scenario: objective=Evaluate fairness metrics across clients with heterogeneous data, dataset_configuration=T3 setup with detailed per-client performance tracking, fl_configuration=q-FedAvg (fairness-aware); q=0.1 for fairness objective, success_criteria=Statistical parity ?0.10; Equalized odds ?0.10; JFI ?0.80, duration_estimate=12-16 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T11 [label="T11 scenario: objective=Analyze model interpretability using SHAP/LIME for FL vs centralized, dataset_configuration=T1 and T2 with SHAP value computation for top 10 features, fl_configuration=FedAvg + SHAP computation on aggregated model, success_criteria=SHAP consistency ?0.75; Top-5 features match across centralized/federated, duration_estimate=8-12 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T12 [label="T12 scenario: objective=Validate complete framework with all requirements on realistic aviation scenario, dataset_configuration=T3 + T5 + T6 + T7 combined; Realistic 20-client aviation fleet scenario, fl_configuration=FedAvg + Multi-Krum + DP (?=5) + Compression + Fairness-aware aggregation, success_criteria=All metric thresholds met; System operates within aviation safety requirements, duration_estimate=24-36 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T2 [label="T2 scenario: objective=Evaluate FL performance with balanced IID data distribution across clients, dataset_configuration=10 clients, each with equal portion of C-MAPSS data; Random balanced split, fl_configuration=FedAvg; 10 clients; 100% participation; E=5 local epochs; lr=0.001, success_criteria=Accuracy ?0.90 (within 2% of baseline); Convergence ?50 rounds, duration_estimate=8-12 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T3 [label="T3 scenario: objective=Test FL performance with non-IID quantity skew (clients have different data amounts), dataset_configuration=10 clients with Dirichlet(?=0.5) distribution; Some clients have 10× more data, fl_configuration=FedAvg; 10 clients; 100% participation; E=5; lr=0.001, success_criteria=Accuracy ?0.88; Local variance ?0.15; Convergence ?70 rounds, duration_estimate=12-16 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T4 [label="T4 scenario: objective=Test FL performance with non-IID label skew (clients have different failure mode distributions), dataset_configuration=10 clients with failure mode partitioning; Each client has 1-2 failure modes dominant, fl_configuration=FedAvg; 10 clients; 100% participation; E=5; lr=0.001, success_criteria=Accuracy ?0.88; Local variance ?0.15; Convergence ?70 rounds, duration_estimate=12-16 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T5 [label="T5 scenario: objective=Measure communication overhead and efficiency of FL vs centralized, dataset_configuration=Same as T2 with communication logging, fl_configuration=FedAvg + gradient compression (Top-K sparsification, k=0.1), success_criteria=Communication cost ?50 MB/round; Efficiency ratio ?5×; Convergence time ?2 hours, duration_estimate=8-12 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T6 [label="T6 scenario: objective=Test robustness against Byzantine attacks (label-flipping, gradient manipulation), dataset_configuration=T2 setup + 20% malicious clients with label-flipping (10%) and gradient manipulation, fl_configuration=FedAvg + Multi-Krum aggregation (f=2 Byzantine clients), success_criteria=Attack detection ?0.85; Model accuracy degradation ?15% under attack, duration_estimate=10-14 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T7 [label="T7 scenario: objective=Evaluate privacy-utility trade-off with different ? values, dataset_configuration=T2 setup with DP-FedAvg; Test ? ? {1, 3, 5, 10}, fl_configuration=DP-FedAvg with Gaussian noise; Clipping threshold C=1.0; ?=10^-5, success_criteria=Accuracy ?0.85 for ??5; Privacy-utility trade-off validated, duration_estimate=12-16 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T8 [label="T8 scenario: objective=Test model convergence and performance with varying client dropout rates, dataset_configuration=T2 setup; Test dropout rates: {0%, 20%, 40%, 60%}, fl_configuration=FedAvg with asynchronous updates; Straggler threshold=2× median time, success_criteria=Model converges with ?70% dropout; Performance degradation ?10%, duration_estimate=10-14 hours" fillcolor="#f0f0f0" shape=ellipse]
+	C_SCEN_T9 [label="T9 scenario: objective=Monitor and detect concept drift, test adaptation strategies, dataset_configuration=Sequential training with FD001?FD002 transition to simulate operational condition change, fl_configuration=FedAvg with drift detection (KS test every 10 rounds); Retrain threshold p<0.01, success_criteria=Drift detected within 5 rounds of change; Adaptation recovers accuracy within 10 rounds, duration_estimate=16-20 hours" fillcolor="#f0f0f0" shape=ellipse]
+	G0 [label="FL-PdM meets assurance objectives within intended ODD" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G1 [label="Federated Data Assurance & Governance" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	G2 [label="Federated Learning Process Assurance" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	G3 [label="Model Robustness & Security" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	G4 [label="System Trustworthiness & Explainability" fillcolor="#59a14f" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	G_M_M1 [label="M1: Global Model Accuracy" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M10 [label="M10: Communication Rounds to Convergence" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M11 [label="M11: Communication Cost (MB per round)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M12 [label="M12: Communication Efficiency Ratio" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M13 [label="M13: Local Model Variance" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M14 [label="M14: Inter-Client Performance Std Dev" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M15 [label="M15: Statistical Parity Difference" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M16 [label="M16: Equalized Odds Difference" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M17 [label="M17: Jain Fairness Index" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M18 [label="M18: Client Contribution (Shapley Value)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M19 [label="M19: KL Divergence" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M2 [label="M2: Precision (Global)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M20 [label="M20: Privacy Budget (Epsilon)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M21 [label="M21: Attack Detection Rate" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M22 [label="M22: Byzantine Robustness Score" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M23 [label="M23: Model Update Similarity (Cosine)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M24 [label="M24: Drift Detection (KS p-value)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M25 [label="M25: Data Quality Score" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M26 [label="M26: ODD Coverage Percentage" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M27 [label="M27: Adversarial Robustness (ASR)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M28 [label="M28: Calibration Error (ECE)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M29 [label="M29: Confidence Interval Width (95% CI)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M3 [label="M3: Recall (Global)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M30 [label="M30: Time to Convergence (seconds)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M31 [label="M31: Model Explainability Score (SHAP)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M32 [label="M32: Feature Attribution Stability" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M33 [label="M33: Model Version Consistency" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M34 [label="M34: Reproducibility Score" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M35 [label="M35: Local Accuracy Variance" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M36 [label="M36: Client Dropout Tolerance" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M37 [label="M37: Memory Footprint (MB)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M38 [label="M38: Inference Latency (ms)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M39 [label="M39: False Positive Rate" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M4 [label="M4: F1-Score (Global)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M40 [label="M40: False Negative Rate" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M5 [label="M5: RMSE" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M6 [label="M6: Score Function (Prognostics)" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M7 [label="M7: AUC" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M8 [label="M8: Generalization Gap" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	G_M_M9 [label="M9: Convergence Rate" fillcolor="#ffffff" fontcolor="#000000" shape=rect style="rounded,filled"]
+	"G_R_CE.1.1" [label="CE.1.1: Communication Efficiency" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_CE.1.2" [label="CE.1.2: Operational Feasibility" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.1.1" [label="DA.1.1: Define ODD Parameters" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.1.2" [label="DA.1.2: ODD Coverage Assurance (ISO/PAS 21448)" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.2.1" [label="DA.2.1: Data Quality Requirements (DQR)" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.2.2" [label="DA.2.2: Data Verification & Validation" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.2.3" [label="DA.2.3: FAA/EASA Dataset Separation" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.2.4" [label="DA.2.4: FDA Dataset Separation" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.3.1" [label="DA.3.1: Identify Security Risks (IS-01/02)" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.3.2" [label="DA.3.2: Validate Security Controls (IS-03)" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.4.1" [label="DA.4.1: FDA Stability Requirement" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_DA.5.1" [label="DA.5.1: Client Data Distribution Characterization" fillcolor="#4e79a7" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_FE.1.1" [label="FE.1.1: Participant Fairness (FDA)" fillcolor="#59a14f" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_FE.1.2" [label="FE.1.2: Benefit Equity" fillcolor="#59a14f" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.1" [label="MR.1.1: Safety Assessment Linkage (SA-01)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.2" [label="MR.1.2: Model Test Evaluation (LM-09)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.3" [label="MR.1.3: Inference Model Test Evaluation (IMP-08)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.4" [label="MR.1.4: Generalization Bounds (LM-04)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.5" [label="MR.1.5: Hazard-driven Metrics (SAE ARP)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.1.6" [label="MR.1.6: Statistical Confidence (FDA)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.2.1" [label="MR.2.1: ODD Stability (LM-12)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.2.2" [label="MR.2.2: Adverse Condition Robustness (Train, LM-13)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.2.3" [label="MR.2.3: Adverse Condition Robustness (Inference, IMP-10)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.2.4" [label="MR.2.4: Robustness Metrics (LM-02)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.2.5" [label="MR.2.5: Stress Testing (FAA)" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.3.1" [label="MR.3.1: Model Explainability" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_MR.3.2" [label="MR.3.2: Feature Attribution Requirements" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_PS.1.1" [label="PS.1.1: Privacy Preservation" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_PS.1.2" [label="PS.1.2: Attack Protection" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_PS.1.3" [label="PS.1.3: Robust Aggregation" fillcolor="#e15759" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.1" [label="SR.1.1: Configuration Management (CM-01)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.2" [label="SR.1.2: Metric Stability Monitoring (SA-03)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.3" [label="SR.1.3: ODD/Performance Monitoring (EXP-05/06)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.4" [label="SR.1.4: Output Confidence Monitoring (EXP-07)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.5" [label="SR.1.5: Lifecycle Monitoring (FDA TPLC)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.6" [label="SR.1.6: Change Control Plan (FDA PCCP)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.7" [label="SR.1.7: Certification Maintenance (CCMRs, SAE/FAA)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.1.8" [label="SR.1.8: Locked AI Assumption (FAA)" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.2.1" [label="SR.2.1: Model & Data versioning" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	"G_R_SR.2.2" [label="SR.2.2: Traceability & Reproducibility" fillcolor="#f28e2c" fontcolor="#ffffff" shape=rect style="rounded,filled"]
+	J_Bounds [label="Literature-bounded caps for supporting metrics" fillcolor="#e8daef" shape=hexagon]
+	J_FHA [label="FHA-based thresholds for safety causal metrics" fillcolor="#e8daef" shape=hexagon]
+	S1 [label="Decompose by assurance pillars" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M1 [label="Assess M1 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M10 [label="Assess M10 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M11 [label="Assess M11 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M12 [label="Assess M12 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M13 [label="Assess M13 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M14 [label="Assess M14 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M15 [label="Assess M15 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M16 [label="Assess M16 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M17 [label="Assess M17 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M18 [label="Assess M18 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M19 [label="Assess M19 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M2 [label="Assess M2 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M20 [label="Assess M20 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M21 [label="Assess M21 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M22 [label="Assess M22 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M23 [label="Assess M23 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M24 [label="Assess M24 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M25 [label="Assess M25 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M26 [label="Assess M26 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M27 [label="Assess M27 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M28 [label="Assess M28 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M29 [label="Assess M29 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M3 [label="Assess M3 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M30 [label="Assess M30 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M31 [label="Assess M31 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M32 [label="Assess M32 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M33 [label="Assess M33 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M34 [label="Assess M34 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M35 [label="Assess M35 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M36 [label="Assess M36 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M37 [label="Assess M37 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M38 [label="Assess M38 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M39 [label="Assess M39 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M4 [label="Assess M4 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M40 [label="Assess M40 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M5 [label="Assess M5 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M6 [label="Assess M6 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M7 [label="Assess M7 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M8 [label="Assess M8 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	S_M2E_M9 [label="Assess M9 via test evidence" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_CE.1.1" [label="Operationalise CE.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_CE.1.2" [label="Operationalise CE.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.1.1" [label="Operationalise DA.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.1.2" [label="Operationalise DA.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.2.1" [label="Operationalise DA.2.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.2.2" [label="Operationalise DA.2.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.2.3" [label="Operationalise DA.2.3 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.2.4" [label="Operationalise DA.2.4 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.3.1" [label="Operationalise DA.3.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.3.2" [label="Operationalise DA.3.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.4.1" [label="Operationalise DA.4.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_DA.5.1" [label="Operationalise DA.5.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_FE.1.1" [label="Operationalise FE.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_FE.1.2" [label="Operationalise FE.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.1" [label="Operationalise MR.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.2" [label="Operationalise MR.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.3" [label="Operationalise MR.1.3 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.4" [label="Operationalise MR.1.4 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.5" [label="Operationalise MR.1.5 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.1.6" [label="Operationalise MR.1.6 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.2.1" [label="Operationalise MR.2.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.2.2" [label="Operationalise MR.2.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.2.3" [label="Operationalise MR.2.3 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.2.4" [label="Operationalise MR.2.4 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.2.5" [label="Operationalise MR.2.5 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.3.1" [label="Operationalise MR.3.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_MR.3.2" [label="Operationalise MR.3.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_PS.1.1" [label="Operationalise PS.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_PS.1.2" [label="Operationalise PS.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_PS.1.3" [label="Operationalise PS.1.3 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.1" [label="Operationalise SR.1.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.2" [label="Operationalise SR.1.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.3" [label="Operationalise SR.1.3 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.4" [label="Operationalise SR.1.4 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.5" [label="Operationalise SR.1.5 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.6" [label="Operationalise SR.1.6 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.7" [label="Operationalise SR.1.7 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.1.8" [label="Operationalise SR.1.8 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.2.1" [label="Operationalise SR.2.1 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	"S_R2M_SR.2.2" [label="Operationalise SR.2.2 via metrics" fillcolor="#d0ece7" shape=parallelogram]
+	Sn_T10_0_M13 [label="T10×M13: PASS @ 0.000256459399152 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T10_0_M14 [label="T10×M14: PASS @ 0.0160143497886131 std (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T10_0_M15 [label="T10×M15: PASS @ 0.0014369176318706 abs_ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T10_0_M16 [label="T10×M16: PASS @ 0.0373641304347825 abs_ratio (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T10_0_M17 [label="T10×M17: PASS @ 0.9989158974933292 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T10_0_M35 [label="T10×M35: PASS @ 0.000256459399152 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T11_0_M31 [label="T11×M31: FAIL @ 0.413066416978836 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T11_0_M32 [label="T11×M32: PASS @ 1.0 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M1 [label="T12×M1: PASS @ 0.9875534514355528 ratio (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M10 [label="T12×M10: PASS @ 60.0 rounds (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M11 [label="T12×M11: PASS @ 0.3910491943359376 MB (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M12 [label="T12×M12: FAIL @ 2.525394415177283 x (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M13 [label="T12×M13: PASS @ 0.0361488955460356 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M14 [label="T12×M14: FAIL @ 0.190128628949024 std (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M15 [label="T12×M15: PASS @ 0.0050256735770649 abs_ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M16 [label="T12×M16: PASS @ 0.06462063086104 abs_ratio (level=Maj)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M17 [label="T12×M17: PASS @ 0.998028660048374 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M18 [label="T12×M18: MONITOR @ 0.0 relative (level=Monitor)" fillcolor="#f2c14e" shape=note]
+	Sn_T12_0_M19 [label="T12×M19: FAIL @ 3.765529249228086 nats (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M2 [label="T12×M2: FAIL @ 0.6267281105990783 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M20 [label="T12×M20: PASS @ 5.0 epsilon (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M21 [label="T12×M21: FAIL @ 0.0 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M22 [label="T12×M22: PASS @ 0.9983018139714396 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M23 [label="T12×M23: FAIL @ 0.0008010387651721 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M24 [label="T12×M24: ALARM @ 0.0 p_value (level=Cat)" fillcolor="#9b59b6" shape=note]
+	Sn_T12_0_M25 [label="T12×M25: PASS @ 1.0 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M26 [label="T12×M26: PASS @ 0.9 ratio (level=Maj)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M27 [label="T12×M27: PASS @ 0.0016981860285604 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M28 [label="T12×M28: PASS @ 0.0478459657312108 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M29 [label="T12×M29: FAIL @ 1.604189453125 abs_ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M3 [label="T12×M3: FAIL @ 0.6238532110091743 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M30 [label="T12×M30: PASS @ 149.91001730001153 seconds (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M31 [label="T12×M31: FAIL @ 0.231410413980484 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M32 [label="T12×M32: PASS @ 1.0 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M33 [label="T12×M33: PASS @ 1.0 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M34 [label="T12×M34: PASS @ 1.0 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M35 [label="T12×M35: PASS @ 0.0361488955460356 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M36 [label="T12×M36: FAIL @ 0.3 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M37 [label="T12×M37: PASS @ 0.0444374084472656 MB (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M38 [label="T12×M38: PASS @ 0.0059164062520267 ms (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M39 [label="T12×M39: PASS @ 0.0062897965522596 ratio (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M4 [label="T12×M4: FAIL @ 0.6252873563218391 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M40 [label="T12×M40: FAIL @ 0.3761467889908257 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M5 [label="T12×M5: FAIL @ 37.69907379150391 cycles (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M6 [label="T12×M6: FAIL @ 336679.6170726881 score (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M7 [label="T12×M7: PASS @ 0.9897880746768188 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T12_0_M8 [label="T12×M8: FAIL @ 0.6212558883156102 abs_ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T12_0_M9 [label="T12×M9: PASS @ 583.2383815595972 delta_per_round (level=Maj)" fillcolor="#6ba368" shape=note]
+	Sn_T1_0_M1 [label="T1×M1: PASS @ 0.9887127372565468 ratio (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T1_0_M29 [label="T1×M29: FAIL @ 1.2648448944091797 abs_ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T1_0_M3 [label="T1×M3: FAIL @ 0.4393351800554017 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T1_0_M5 [label="T1×M5: FAIL @ 16.01161003112793 cycles (level=)" fillcolor="#d45050" shape=note]
+	Sn_T1_0_M7 [label="T1×M7: PASS @ 0.9916045270808324 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T2_0_M10 [label="T2×M10: PASS @ 50.0 rounds (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T2_0_M29 [label="T2×M29: FAIL @ 1.2708920288085936 abs_ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T2_0_M3 [label="T2×M3: FAIL @ 0.6376146788990825 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T2_0_M5 [label="T2×M5: FAIL @ 16.039268493652344 cycles (level=)" fillcolor="#d45050" shape=note]
+	Sn_T2_0_M7 [label="T2×M7: PASS @ 0.9922120222098424 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T2_0_M8 [label="T2×M8: FAIL @ 0.5697834915886127 abs_ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T3_0_M13 [label="T3×M13: PASS @ 0.0001074655870405 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T3_0_M14 [label="T3×M14: PASS @ 0.0103665610035632 std (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T3_0_M3 [label="T3×M3: FAIL @ 0.555045871559633 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T3_0_M5 [label="T3×M5: FAIL @ 16.113086700439453 cycles (level=)" fillcolor="#d45050" shape=note]
+	Sn_T4_0_M3 [label="T4×M3: FAIL @ 0.6055045871559633 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T4_0_M35 [label="T4×M35: PASS @ 5.913993930545581e-05 variance (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T4_0_M5 [label="T4×M5: FAIL @ 16.45545768737793 cycles (level=)" fillcolor="#d45050" shape=note]
+	Sn_T5_0_M10 [label="T5×M10: PASS @ 50.0 rounds (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T5_0_M11 [label="T5×M11: PASS @ 0.2666244506835937 MB (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T5_0_M12 [label="T5×M12: FAIL @ 3.7179450323580143 x (level=)" fillcolor="#d45050" shape=note]
+	Sn_T5_0_M30 [label="T5×M30: PASS @ 250.0 seconds (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T6_0_M21 [label="T6×M21: FAIL @ 0.0 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T6_0_M22 [label="T6×M22: PASS @ 0.992528115852719 ratio (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T7_0_M20 [label="T7×M20: PASS @ 5.0 epsilon (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T7_0_M3 [label="T7×M3: FAIL @ 0.6697247706422018 ratio (level=)" fillcolor="#d45050" shape=note]
+	Sn_T8_0_M10 [label="T8×M10: PASS @ 50.0 rounds (level=Cat)" fillcolor="#6ba368" shape=note]
+	Sn_T8_0_M36 [label="T8×M36: PASS @ 0.8 ratio (level=Haz)" fillcolor="#6ba368" shape=note]
+	Sn_T9_0_M24 [label="T9×M24: ALARM @ 0.0 p_value (level=Cat)" fillcolor="#9b59b6" shape=note]
+	G0 -> S1 [style=dashed]
+	G0 -> C_ODD [style=dotted]
+	G0 -> J_FHA [style=dotted]
+	G0 -> J_Bounds [style=dotted]
+	S1 -> G1
+	S1 -> G2
+	S1 -> G3
+	S1 -> G4
+	G2 -> "G_R_CE.1.1"
+	G2 -> "G_R_CE.1.2"
+	G1 -> "G_R_DA.1.1"
+	G1 -> "G_R_DA.1.2"
+	G1 -> "G_R_DA.2.1"
+	G1 -> "G_R_DA.2.2"
+	G1 -> "G_R_DA.2.3"
+	G1 -> "G_R_DA.2.4"
+	G1 -> "G_R_DA.3.1"
+	G1 -> "G_R_DA.3.2"
+	G1 -> "G_R_DA.4.1"
+	G1 -> "G_R_DA.5.1"
+	G4 -> "G_R_FE.1.1"
+	G4 -> "G_R_FE.1.2"
+	G3 -> "G_R_MR.1.1"
+	G3 -> "G_R_MR.1.2"
+	G3 -> "G_R_MR.1.3"
+	G3 -> "G_R_MR.1.4"
+	G3 -> "G_R_MR.1.5"
+	G3 -> "G_R_MR.1.6"
+	G3 -> "G_R_MR.2.1"
+	G3 -> "G_R_MR.2.2"
+	G3 -> "G_R_MR.2.3"
+	G3 -> "G_R_MR.2.4"
+	G3 -> "G_R_MR.2.5"
+	G3 -> "G_R_MR.3.1"
+	G3 -> "G_R_MR.3.2"
+	G3 -> "G_R_PS.1.1"
+	G3 -> "G_R_PS.1.2"
+	G3 -> "G_R_PS.1.3"
+	G2 -> "G_R_SR.1.1"
+	G2 -> "G_R_SR.1.2"
+	G2 -> "G_R_SR.1.3"
+	G2 -> "G_R_SR.1.4"
+	G2 -> "G_R_SR.1.5"
+	G2 -> "G_R_SR.1.6"
+	G2 -> "G_R_SR.1.7"
+	G2 -> "G_R_SR.1.8"
+	G2 -> "G_R_SR.2.1"
+	G2 -> "G_R_SR.2.2"
+	"G_R_CE.1.1" -> "S_R2M_CE.1.1" [style=dashed]
+	"S_R2M_CE.1.1" -> G_M_M11
+	"S_R2M_CE.1.1" -> G_M_M12
+	"S_R2M_CE.1.1" -> G_M_M37
+	"G_R_CE.1.2" -> "S_R2M_CE.1.2" [style=dashed]
+	"S_R2M_CE.1.2" -> G_M_M10
+	"S_R2M_CE.1.2" -> G_M_M11
+	"S_R2M_CE.1.2" -> G_M_M30
+	"S_R2M_CE.1.2" -> G_M_M36
+	"S_R2M_CE.1.2" -> G_M_M37
+	"S_R2M_CE.1.2" -> G_M_M38
+	"S_R2M_CE.1.2" -> G_M_M9
+	"G_R_DA.1.1" -> "S_R2M_DA.1.1" [style=dashed]
+	"S_R2M_DA.1.1" -> G_M_M26
+	"G_R_DA.1.2" -> "S_R2M_DA.1.2" [style=dashed]
+	"S_R2M_DA.1.2" -> G_M_M26
+	"G_R_DA.2.1" -> "S_R2M_DA.2.1" [style=dashed]
+	"S_R2M_DA.2.1" -> G_M_M25
+	"G_R_DA.2.2" -> "S_R2M_DA.2.2" [style=dashed]
+	"S_R2M_DA.2.2" -> G_M_M25
+	"G_R_DA.2.3" -> "S_R2M_DA.2.3" [style=dashed]
+	"S_R2M_DA.2.3" -> G_M_M25
+	"S_R2M_DA.2.3" -> G_M_M34
+	"S_R2M_DA.2.3" -> G_M_M8
+	"G_R_DA.2.4" -> "S_R2M_DA.2.4" [style=dashed]
+	"S_R2M_DA.2.4" -> G_M_M25
+	"S_R2M_DA.2.4" -> G_M_M34
+	"S_R2M_DA.2.4" -> G_M_M8
+	"G_R_DA.3.1" -> "S_R2M_DA.3.1" [style=dashed]
+	"S_R2M_DA.3.1" -> G_M_M21
+	"S_R2M_DA.3.1" -> G_M_M22
+	"S_R2M_DA.3.1" -> G_M_M23
+	"S_R2M_DA.3.1" -> G_M_M27
+	"G_R_DA.3.2" -> "S_R2M_DA.3.2" [style=dashed]
+	"S_R2M_DA.3.2" -> G_M_M21
+	"S_R2M_DA.3.2" -> G_M_M22
+	"S_R2M_DA.3.2" -> G_M_M27
+	"G_R_DA.4.1" -> "S_R2M_DA.4.1" [style=dashed]
+	"S_R2M_DA.4.1" -> G_M_M13
+	"S_R2M_DA.4.1" -> G_M_M35
+	"G_R_DA.5.1" -> "S_R2M_DA.5.1" [style=dashed]
+	"S_R2M_DA.5.1" -> G_M_M19
+	"G_R_FE.1.1" -> "S_R2M_FE.1.1" [style=dashed]
+	"S_R2M_FE.1.1" -> G_M_M13
+	"S_R2M_FE.1.1" -> G_M_M14
+	"S_R2M_FE.1.1" -> G_M_M15
+	"S_R2M_FE.1.1" -> G_M_M16
+	"S_R2M_FE.1.1" -> G_M_M17
+	"S_R2M_FE.1.1" -> G_M_M35
+	"G_R_FE.1.2" -> "S_R2M_FE.1.2" [style=dashed]
+	"S_R2M_FE.1.2" -> G_M_M14
+	"S_R2M_FE.1.2" -> G_M_M17
+	"S_R2M_FE.1.2" -> G_M_M18
+	"G_R_MR.1.1" -> "S_R2M_MR.1.1" [style=dashed]
+	"S_R2M_MR.1.1" -> G_M_M3
+	"S_R2M_MR.1.1" -> G_M_M39
+	"S_R2M_MR.1.1" -> G_M_M40
+	"S_R2M_MR.1.1" -> G_M_M5
+	"G_R_MR.1.2" -> "S_R2M_MR.1.2" [style=dashed]
+	"S_R2M_MR.1.2" -> G_M_M1
+	"S_R2M_MR.1.2" -> G_M_M2
+	"S_R2M_MR.1.2" -> G_M_M3
+	"S_R2M_MR.1.2" -> G_M_M4
+	"S_R2M_MR.1.2" -> G_M_M5
+	"S_R2M_MR.1.2" -> G_M_M6
+	"S_R2M_MR.1.2" -> G_M_M7
+	"G_R_MR.1.3" -> "S_R2M_MR.1.3" [style=dashed]
+	"S_R2M_MR.1.3" -> G_M_M1
+	"S_R2M_MR.1.3" -> G_M_M38
+	"S_R2M_MR.1.3" -> G_M_M6
+	"G_R_MR.1.4" -> "S_R2M_MR.1.4" [style=dashed]
+	"S_R2M_MR.1.4" -> G_M_M5
+	"S_R2M_MR.1.4" -> G_M_M8
+	"G_R_MR.1.5" -> "S_R2M_MR.1.5" [style=dashed]
+	"S_R2M_MR.1.5" -> G_M_M1
+	"S_R2M_MR.1.5" -> G_M_M2
+	"S_R2M_MR.1.5" -> G_M_M3
+	"S_R2M_MR.1.5" -> G_M_M39
+	"S_R2M_MR.1.5" -> G_M_M4
+	"S_R2M_MR.1.5" -> G_M_M40
+	"G_R_MR.1.6" -> "S_R2M_MR.1.6" [style=dashed]
+	"S_R2M_MR.1.6" -> G_M_M2
+	"S_R2M_MR.1.6" -> G_M_M28
+	"S_R2M_MR.1.6" -> G_M_M29
+	"S_R2M_MR.1.6" -> G_M_M3
+	"S_R2M_MR.1.6" -> G_M_M7
+	"G_R_MR.2.1" -> "S_R2M_MR.2.1" [style=dashed]
+	"S_R2M_MR.2.1" -> G_M_M13
+	"S_R2M_MR.2.1" -> G_M_M14
+	"S_R2M_MR.2.1" -> G_M_M26
+	"S_R2M_MR.2.1" -> G_M_M8
+	"G_R_MR.2.2" -> "S_R2M_MR.2.2" [style=dashed]
+	"S_R2M_MR.2.2" -> G_M_M27
+	"G_R_MR.2.3" -> "S_R2M_MR.2.3" [style=dashed]
+	"S_R2M_MR.2.3" -> G_M_M27
+	"G_R_MR.2.4" -> "S_R2M_MR.2.4" [style=dashed]
+	"S_R2M_MR.2.4" -> G_M_M28
+	"G_R_MR.2.5" -> "S_R2M_MR.2.5" [style=dashed]
+	"S_R2M_MR.2.5" -> G_M_M27
+	"G_R_MR.3.1" -> "S_R2M_MR.3.1" [style=dashed]
+	"S_R2M_MR.3.1" -> G_M_M31
+	"G_R_MR.3.2" -> "S_R2M_MR.3.2" [style=dashed]
+	"S_R2M_MR.3.2" -> G_M_M32
+	"G_R_PS.1.1" -> "S_R2M_PS.1.1" [style=dashed]
+	"S_R2M_PS.1.1" -> G_M_M20
+	"G_R_PS.1.2" -> "S_R2M_PS.1.2" [style=dashed]
+	"S_R2M_PS.1.2" -> G_M_M21
+	"S_R2M_PS.1.2" -> G_M_M22
+	"G_R_PS.1.3" -> "S_R2M_PS.1.3" [style=dashed]
+	"S_R2M_PS.1.3" -> G_M_M21
+	"S_R2M_PS.1.3" -> G_M_M22
+	"S_R2M_PS.1.3" -> G_M_M23
+	"G_R_SR.1.1" -> "S_R2M_SR.1.1" [style=dashed]
+	"S_R2M_SR.1.1" -> G_M_M33
+	"S_R2M_SR.1.1" -> G_M_M34
+	"G_R_SR.1.2" -> "S_R2M_SR.1.2" [style=dashed]
+	"S_R2M_SR.1.2" -> G_M_M23
+	"S_R2M_SR.1.2" -> G_M_M24
+	"S_R2M_SR.1.2" -> G_M_M9
+	"G_R_SR.1.3" -> "S_R2M_SR.1.3" [style=dashed]
+	"S_R2M_SR.1.3" -> G_M_M24
+	"G_R_SR.1.4" -> "S_R2M_SR.1.4" [style=dashed]
+	"S_R2M_SR.1.4" -> G_M_M28
+	"S_R2M_SR.1.4" -> G_M_M29
+	"G_R_SR.1.5" -> "S_R2M_SR.1.5" [style=dashed]
+	"S_R2M_SR.1.5" -> G_M_M24
+	"S_R2M_SR.1.5" -> G_M_M36
+	"G_R_SR.1.6" -> "S_R2M_SR.1.6" [style=dashed]
+	"S_R2M_SR.1.6" -> G_M_M24
+	"S_R2M_SR.1.6" -> G_M_M28
+	"S_R2M_SR.1.6" -> G_M_M29
+	"S_R2M_SR.1.6" -> G_M_M33
+	"S_R2M_SR.1.6" -> G_M_M34
+	"G_R_SR.1.7" -> "S_R2M_SR.1.7" [style=dashed]
+	"S_R2M_SR.1.7" -> G_M_M23
+	"S_R2M_SR.1.7" -> G_M_M24
+	"S_R2M_SR.1.7" -> G_M_M25
+	"S_R2M_SR.1.7" -> G_M_M26
+	"S_R2M_SR.1.7" -> G_M_M33
+	"S_R2M_SR.1.7" -> G_M_M34
+	"G_R_SR.1.8" -> "S_R2M_SR.1.8" [style=dashed]
+	"S_R2M_SR.1.8" -> G_M_M23
+	"S_R2M_SR.1.8" -> G_M_M33
+	"G_R_SR.2.1" -> "S_R2M_SR.2.1" [style=dashed]
+	"S_R2M_SR.2.1" -> G_M_M33
+	"G_R_SR.2.2" -> "S_R2M_SR.2.2" [style=dashed]
+	"S_R2M_SR.2.2" -> G_M_M34
+	G_M_M1 -> C_FHA_M1 [style=dotted]
+	G_M_M10 -> C_FHA_M10 [style=dotted]
+	G_M_M11 -> C_FHA_M11 [style=dotted]
+	G_M_M12 -> C_FHA_M12 [style=dotted]
+	G_M_M13 -> C_FHA_M13 [style=dotted]
+	G_M_M14 -> C_FHA_M14 [style=dotted]
+	G_M_M15 -> C_FHA_M15 [style=dotted]
+	G_M_M16 -> C_FHA_M16 [style=dotted]
+	G_M_M17 -> C_FHA_M17 [style=dotted]
+	G_M_M18 -> J_Bounds [style=dotted]
+	G_M_M19 -> C_FHA_M19 [style=dotted]
+	G_M_M2 -> C_FHA_M2 [style=dotted]
+	G_M_M20 -> C_FHA_M20 [style=dotted]
+	G_M_M21 -> C_FHA_M21 [style=dotted]
+	G_M_M22 -> C_FHA_M22 [style=dotted]
+	G_M_M23 -> C_FHA_M23 [style=dotted]
+	G_M_M24 -> C_FHA_M24 [style=dotted]
+	G_M_M25 -> C_FHA_M25 [style=dotted]
+	G_M_M26 -> C_FHA_M26 [style=dotted]
+	G_M_M27 -> C_FHA_M27 [style=dotted]
+	G_M_M28 -> C_FHA_M28 [style=dotted]
+	G_M_M29 -> C_FHA_M29 [style=dotted]
+	G_M_M3 -> C_FHA_M3 [style=dotted]
+	G_M_M30 -> C_FHA_M30 [style=dotted]
+	G_M_M31 -> C_FHA_M31 [style=dotted]
+	G_M_M32 -> C_FHA_M32 [style=dotted]
+	G_M_M33 -> C_FHA_M33 [style=dotted]
+	G_M_M34 -> C_FHA_M34 [style=dotted]
+	G_M_M35 -> C_FHA_M35 [style=dotted]
+	G_M_M36 -> C_FHA_M36 [style=dotted]
+	G_M_M37 -> C_FHA_M37 [style=dotted]
+	G_M_M38 -> C_FHA_M38 [style=dotted]
+	G_M_M39 -> C_FHA_M39 [style=dotted]
+	G_M_M4 -> C_FHA_M4 [style=dotted]
+	G_M_M40 -> C_FHA_M40 [style=dotted]
+	G_M_M5 -> C_FHA_M5 [style=dotted]
+	G_M_M6 -> C_FHA_M6 [style=dotted]
+	G_M_M7 -> C_FHA_M7 [style=dotted]
+	G_M_M8 -> C_FHA_M8 [style=dotted]
+	G_M_M9 -> C_FHA_M9 [style=dotted]
+	G_M_M1 -> S_M2E_M1 [style=dashed]
+	S_M2E_M1 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T11 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T6 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T8 [style=dotted]
+	S_M2E_M1 -> C_SCEN_T9 [style=dotted]
+	S_M2E_M1 -> Sn_T1_0_M1
+	Sn_T1_0_M1 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M1 -> Sn_T12_0_M1
+	Sn_T12_0_M1 -> C_SCEN_T12 [style=dotted]
+	G_M_M10 -> S_M2E_M10 [style=dashed]
+	S_M2E_M10 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M10 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M10 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M10 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M10 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M10 -> C_SCEN_T8 [style=dotted]
+	S_M2E_M10 -> Sn_T12_0_M10
+	Sn_T12_0_M10 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M10 -> Sn_T2_0_M10
+	Sn_T2_0_M10 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M10 -> Sn_T5_0_M10
+	Sn_T5_0_M10 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M10 -> Sn_T8_0_M10
+	Sn_T8_0_M10 -> C_SCEN_T8 [style=dotted]
+	G_M_M11 -> S_M2E_M11 [style=dashed]
+	S_M2E_M11 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M11 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M11 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M11 -> Sn_T12_0_M11
+	Sn_T12_0_M11 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M11 -> Sn_T5_0_M11
+	Sn_T5_0_M11 -> C_SCEN_T5 [style=dotted]
+	G_M_M12 -> S_M2E_M12 [style=dashed]
+	S_M2E_M12 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M12 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M12 -> Sn_T12_0_M12
+	Sn_T12_0_M12 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M12 -> Sn_T5_0_M12
+	Sn_T5_0_M12 -> C_SCEN_T5 [style=dotted]
+	G_M_M13 -> S_M2E_M13 [style=dashed]
+	S_M2E_M13 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M13 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M13 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M13 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M13 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M13 -> Sn_T10_0_M13
+	Sn_T10_0_M13 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M13 -> Sn_T12_0_M13
+	Sn_T12_0_M13 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M13 -> Sn_T3_0_M13
+	Sn_T3_0_M13 -> C_SCEN_T3 [style=dotted]
+	G_M_M14 -> S_M2E_M14 [style=dashed]
+	S_M2E_M14 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M14 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M14 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M14 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M14 -> Sn_T10_0_M14
+	Sn_T10_0_M14 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M14 -> Sn_T12_0_M14
+	Sn_T12_0_M14 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M14 -> Sn_T3_0_M14
+	Sn_T3_0_M14 -> C_SCEN_T3 [style=dotted]
+	G_M_M15 -> S_M2E_M15 [style=dashed]
+	S_M2E_M15 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M15 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M15 -> Sn_T10_0_M15
+	Sn_T10_0_M15 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M15 -> Sn_T12_0_M15
+	Sn_T12_0_M15 -> C_SCEN_T12 [style=dotted]
+	G_M_M16 -> S_M2E_M16 [style=dashed]
+	S_M2E_M16 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M16 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M16 -> Sn_T10_0_M16
+	Sn_T10_0_M16 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M16 -> Sn_T12_0_M16
+	Sn_T12_0_M16 -> C_SCEN_T12 [style=dotted]
+	G_M_M17 -> S_M2E_M17 [style=dashed]
+	S_M2E_M17 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M17 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M17 -> Sn_T10_0_M17
+	Sn_T10_0_M17 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M17 -> Sn_T12_0_M17
+	Sn_T12_0_M17 -> C_SCEN_T12 [style=dotted]
+	G_M_M18 -> S_M2E_M18 [style=dashed]
+	S_M2E_M18 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M18 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M18 -> Sn_T12_0_M18
+	Sn_T12_0_M18 -> C_SCEN_T12 [style=dotted]
+	G_M_M19 -> S_M2E_M19 [style=dashed]
+	S_M2E_M19 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M19 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M19 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M19 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M19 -> Sn_T12_0_M19
+	Sn_T12_0_M19 -> C_SCEN_T12 [style=dotted]
+	G_M_M2 -> S_M2E_M2 [style=dashed]
+	S_M2E_M2 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M2 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M2 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M2 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M2 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M2 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M2 -> Sn_T12_0_M2
+	Sn_T12_0_M2 -> C_SCEN_T12 [style=dotted]
+	G_M_M20 -> S_M2E_M20 [style=dashed]
+	S_M2E_M20 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M20 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M20 -> Sn_T12_0_M20
+	Sn_T12_0_M20 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M20 -> Sn_T7_0_M20
+	Sn_T7_0_M20 -> C_SCEN_T7 [style=dotted]
+	G_M_M21 -> S_M2E_M21 [style=dashed]
+	S_M2E_M21 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M21 -> C_SCEN_T6 [style=dotted]
+	S_M2E_M21 -> Sn_T12_0_M21
+	Sn_T12_0_M21 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M21 -> Sn_T6_0_M21
+	Sn_T6_0_M21 -> C_SCEN_T6 [style=dotted]
+	G_M_M22 -> S_M2E_M22 [style=dashed]
+	S_M2E_M22 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M22 -> C_SCEN_T6 [style=dotted]
+	S_M2E_M22 -> Sn_T12_0_M22
+	Sn_T12_0_M22 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M22 -> Sn_T6_0_M22
+	Sn_T6_0_M22 -> C_SCEN_T6 [style=dotted]
+	G_M_M23 -> S_M2E_M23 [style=dashed]
+	S_M2E_M23 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M23 -> C_SCEN_T6 [style=dotted]
+	S_M2E_M23 -> Sn_T12_0_M23
+	Sn_T12_0_M23 -> C_SCEN_T12 [style=dotted]
+	G_M_M24 -> S_M2E_M24 [style=dashed]
+	S_M2E_M24 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M24 -> C_SCEN_T9 [style=dotted]
+	S_M2E_M24 -> Sn_T12_0_M24
+	Sn_T12_0_M24 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M24 -> Sn_T9_0_M24
+	Sn_T9_0_M24 -> C_SCEN_T9 [style=dotted]
+	G_M_M25 -> S_M2E_M25 [style=dashed]
+	S_M2E_M25 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M25 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M25 -> C_SCEN_T9 [style=dotted]
+	S_M2E_M25 -> Sn_T12_0_M25
+	Sn_T12_0_M25 -> C_SCEN_T12 [style=dotted]
+	G_M_M26 -> S_M2E_M26 [style=dashed]
+	S_M2E_M26 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M26 -> Sn_T12_0_M26
+	Sn_T12_0_M26 -> C_SCEN_T12 [style=dotted]
+	G_M_M27 -> S_M2E_M27 [style=dashed]
+	S_M2E_M27 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M27 -> Sn_T12_0_M27
+	Sn_T12_0_M27 -> C_SCEN_T12 [style=dotted]
+	G_M_M28 -> S_M2E_M28 [style=dashed]
+	S_M2E_M28 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M28 -> Sn_T12_0_M28
+	Sn_T12_0_M28 -> C_SCEN_T12 [style=dotted]
+	G_M_M29 -> S_M2E_M29 [style=dashed]
+	S_M2E_M29 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M29 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M29 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M29 -> Sn_T1_0_M29
+	Sn_T1_0_M29 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M29 -> Sn_T12_0_M29
+	Sn_T12_0_M29 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M29 -> Sn_T2_0_M29
+	Sn_T2_0_M29 -> C_SCEN_T2 [style=dotted]
+	G_M_M3 -> S_M2E_M3 [style=dashed]
+	S_M2E_M3 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M3 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M3 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M3 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M3 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M3 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M3 -> Sn_T1_0_M3
+	Sn_T1_0_M3 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M3 -> Sn_T12_0_M3
+	Sn_T12_0_M3 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M3 -> Sn_T2_0_M3
+	Sn_T2_0_M3 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M3 -> Sn_T3_0_M3
+	Sn_T3_0_M3 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M3 -> Sn_T4_0_M3
+	Sn_T4_0_M3 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M3 -> Sn_T7_0_M3
+	Sn_T7_0_M3 -> C_SCEN_T7 [style=dotted]
+	G_M_M30 -> S_M2E_M30 [style=dashed]
+	S_M2E_M30 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M30 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M30 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M30 -> Sn_T12_0_M30
+	Sn_T12_0_M30 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M30 -> Sn_T5_0_M30
+	Sn_T5_0_M30 -> C_SCEN_T5 [style=dotted]
+	G_M_M31 -> S_M2E_M31 [style=dashed]
+	S_M2E_M31 -> C_SCEN_T11 [style=dotted]
+	S_M2E_M31 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M31 -> Sn_T11_0_M31
+	Sn_T11_0_M31 -> C_SCEN_T11 [style=dotted]
+	S_M2E_M31 -> Sn_T12_0_M31
+	Sn_T12_0_M31 -> C_SCEN_T12 [style=dotted]
+	G_M_M32 -> S_M2E_M32 [style=dashed]
+	S_M2E_M32 -> C_SCEN_T11 [style=dotted]
+	S_M2E_M32 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M32 -> Sn_T11_0_M32
+	Sn_T11_0_M32 -> C_SCEN_T11 [style=dotted]
+	S_M2E_M32 -> Sn_T12_0_M32
+	Sn_T12_0_M32 -> C_SCEN_T12 [style=dotted]
+	G_M_M33 -> S_M2E_M33 [style=dashed]
+	S_M2E_M33 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M33 -> Sn_T12_0_M33
+	Sn_T12_0_M33 -> C_SCEN_T12 [style=dotted]
+	G_M_M34 -> S_M2E_M34 [style=dashed]
+	S_M2E_M34 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M34 -> Sn_T12_0_M34
+	Sn_T12_0_M34 -> C_SCEN_T12 [style=dotted]
+	G_M_M35 -> S_M2E_M35 [style=dashed]
+	S_M2E_M35 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M35 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M35 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M35 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M35 -> Sn_T10_0_M35
+	Sn_T10_0_M35 -> C_SCEN_T10 [style=dotted]
+	S_M2E_M35 -> Sn_T12_0_M35
+	Sn_T12_0_M35 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M35 -> Sn_T4_0_M35
+	Sn_T4_0_M35 -> C_SCEN_T4 [style=dotted]
+	G_M_M36 -> S_M2E_M36 [style=dashed]
+	S_M2E_M36 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M36 -> C_SCEN_T8 [style=dotted]
+	S_M2E_M36 -> Sn_T12_0_M36
+	Sn_T12_0_M36 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M36 -> Sn_T8_0_M36
+	Sn_T8_0_M36 -> C_SCEN_T8 [style=dotted]
+	G_M_M37 -> S_M2E_M37 [style=dashed]
+	S_M2E_M37 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M37 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M37 -> Sn_T12_0_M37
+	Sn_T12_0_M37 -> C_SCEN_T12 [style=dotted]
+	G_M_M38 -> S_M2E_M38 [style=dashed]
+	S_M2E_M38 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M38 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M38 -> Sn_T12_0_M38
+	Sn_T12_0_M38 -> C_SCEN_T12 [style=dotted]
+	G_M_M39 -> S_M2E_M39 [style=dashed]
+	S_M2E_M39 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M39 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M39 -> Sn_T12_0_M39
+	Sn_T12_0_M39 -> C_SCEN_T12 [style=dotted]
+	G_M_M4 -> S_M2E_M4 [style=dashed]
+	S_M2E_M4 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M4 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M4 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M4 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M4 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M4 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M4 -> Sn_T12_0_M4
+	Sn_T12_0_M4 -> C_SCEN_T12 [style=dotted]
+	G_M_M40 -> S_M2E_M40 [style=dashed]
+	S_M2E_M40 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M40 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M40 -> Sn_T12_0_M40
+	Sn_T12_0_M40 -> C_SCEN_T12 [style=dotted]
+	G_M_M5 -> S_M2E_M5 [style=dashed]
+	S_M2E_M5 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M5 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M5 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M5 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M5 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M5 -> Sn_T1_0_M5
+	Sn_T1_0_M5 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M5 -> Sn_T12_0_M5
+	Sn_T12_0_M5 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M5 -> Sn_T2_0_M5
+	Sn_T2_0_M5 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M5 -> Sn_T3_0_M5
+	Sn_T3_0_M5 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M5 -> Sn_T4_0_M5
+	Sn_T4_0_M5 -> C_SCEN_T4 [style=dotted]
+	G_M_M6 -> S_M2E_M6 [style=dashed]
+	S_M2E_M6 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M6 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M6 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M6 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M6 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M6 -> Sn_T12_0_M6
+	Sn_T12_0_M6 -> C_SCEN_T12 [style=dotted]
+	G_M_M7 -> S_M2E_M7 [style=dashed]
+	S_M2E_M7 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M7 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M7 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M7 -> Sn_T1_0_M7
+	Sn_T1_0_M7 -> C_SCEN_T1 [style=dotted]
+	S_M2E_M7 -> Sn_T12_0_M7
+	Sn_T12_0_M7 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M7 -> Sn_T2_0_M7
+	Sn_T2_0_M7 -> C_SCEN_T2 [style=dotted]
+	G_M_M8 -> S_M2E_M8 [style=dashed]
+	S_M2E_M8 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M8 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M8 -> Sn_T12_0_M8
+	Sn_T12_0_M8 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M8 -> Sn_T2_0_M8
+	Sn_T2_0_M8 -> C_SCEN_T2 [style=dotted]
+	G_M_M9 -> S_M2E_M9 [style=dashed]
+	S_M2E_M9 -> C_SCEN_T12 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T2 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T3 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T4 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T5 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T6 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T7 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T8 [style=dotted]
+	S_M2E_M9 -> C_SCEN_T9 [style=dotted]
+	S_M2E_M9 -> Sn_T12_0_M9
+	Sn_T12_0_M9 -> C_SCEN_T12 [style=dotted]
+}

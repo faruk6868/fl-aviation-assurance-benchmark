@@ -1,0 +1,16 @@
+{
+  "latency_profiles": [
+    {
+      "hw_profile": "cpu_4threads",
+      "backend": "pytorch",
+      "num_threads": 4,
+      "use_gpu": false,
+      "median_ms": 1.5567499976896215,
+      "mean_ms": 1.6374031999730505,
+      "p95_ms": 2.1736899965617336,
+      "max_ms": 3.267300002335105,
+      "warmup_runs": 50,
+      "measured_runs": 500
+    }
+  ]
+}

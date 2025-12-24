@@ -1,0 +1,14 @@
+[
+  {
+    "metric_id": "M.PERF.CROSS_STAB",
+    "value": 0.008032483326991698
+  },
+  {
+    "metric_id": "M.FL.WORST_CLIENT",
+    "value": 0.9893122762667749
+  },
+  {
+    "metric_id": "M.XFORM.DELTA",
+    "value": 0.0016718687284225098
+  }
+]

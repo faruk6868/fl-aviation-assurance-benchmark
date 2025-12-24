@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.1
+scikit-learn>=1.3
+scipy>=1.11
+torch>=2.0
+tqdm>=4.66
+statsmodels>=0.14
+opacus>=1.4
+shap>=0.43
+lime>=0.2
+pyyaml>=6.0
+

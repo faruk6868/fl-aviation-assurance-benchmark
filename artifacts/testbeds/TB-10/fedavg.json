@@ -1,0 +1,13 @@
+[
+  {
+    "metric_id": "M.FL.CONV_TIME",
+    "value": 201,
+    "extras": {
+      "target_rmse": 20.0,
+      "achieved_rmse": 36.908652872467954,
+      "converged": false,
+      "rounds": 201,
+      "time_seconds": 1150.9886325
+    }
+  }
+]

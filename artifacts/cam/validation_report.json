@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "requirements": 40,
+    "metrics": 40,
+    "tests": 12,
+    "overlays": 105
+  },
+  "coverage": {
+    "requirements_total": 40,
+    "requirements_with_metrics": 29,
+    "metrics_total": 40,
+    "metrics_in_tests": 40,
+    "tests_total": 12,
+    "overlay_entries": 105
+  },
+  "errors": [],
+  "warnings": [
+    "Requirement R.L.1.4 has no linked metrics.",
+    "Requirement R.D.2.3 has no linked metrics.",
+    "Requirement R.D.3.2 has no linked metrics.",
+    "Requirement R.L.1.7 has no linked metrics.",
+    "Requirement R.L.1.8 has no linked metrics.",
+    "Requirement R.D.2.4 has no linked metrics.",
+    "Requirement R.D.3.1 has no linked metrics.",
+    "Requirement R.L.1.1 has no linked metrics.",
+    "Requirement R.M.2.1 has no linked metrics.",
+    "Requirement R.M.1.1 has no linked metrics.",
+    "Requirement R.L.1.6 has no linked metrics.",
+    "Missing results for 49 metric/test pairs: M1\u2192T2, M1\u2192T3, M1\u2192T4, M1\u2192T6, M1\u2192T7, M1\u2192T8, M1\u2192T9, M1\u2192T11, M2\u2192T1, M2\u2192T2..."
+  ]
+}

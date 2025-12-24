@@ -1,0 +1,47 @@
+{
+  "nominal_rmse": 37.086592721621834,
+  "segment_rmse": [
+    37.08393850546303,
+    37.370685168196566,
+    36.81122311710076
+  ],
+  "perturbations": [
+    {
+      "noise": 0.02,
+      "bias": 0.0,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    },
+    {
+      "noise": 0.02,
+      "bias": 0.05,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    },
+    {
+      "noise": 0.05,
+      "bias": 0.0,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    },
+    {
+      "noise": 0.05,
+      "bias": 0.05,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    },
+    {
+      "noise": 0.1,
+      "bias": 0.0,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    },
+    {
+      "noise": 0.1,
+      "bias": 0.05,
+      "rmse": 37.086592721621834,
+      "degradation": 0.0
+    }
+  ],
+  "stability_score": 0.0
+}

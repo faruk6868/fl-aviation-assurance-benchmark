@@ -1,0 +1,22 @@
+[
+  {
+    "metric_id": "M.GEN.GAP",
+    "value": 0.020878108845147403
+  },
+  {
+    "metric_id": "M.STAT.CI",
+    "value": 0.029766368929591218
+  },
+  {
+    "metric_id": "M.PERF.STAT_REP",
+    "value": 95.0
+  },
+  {
+    "metric_id": "M.BIAS.COMPL",
+    "value": 0.0027265280971737194
+  },
+  {
+    "metric_id": "M.BIAS.TRADEOFF",
+    "value": 0.8797090605021247
+  }
+]

@@ -1,0 +1,52 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-download-cache/
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated outputs and data
+results/*
+!results/README.md
+!results/.gitkeep
+paper_assets/figures/*
+!paper_assets/figures/.gitkeep
+paper_assets/tables/*
+!paper_assets/tables/.gitkeep
+data/c-mapss/*
+!data/.gitkeep
+results/run_configs/*

@@ -1,0 +1,59 @@
+Metric ID,Metric Name,Threshold Min,Threshold max,Unit,Threshold Eliciation Method,Source Category,Primary Source,,
+M.CLS.Pre,Precision (Global),0.85,1,Ratio (0-1),Cost-Benefit Analysis (False Alarm Tolerance),Industrial Intuition,"SAE ARP6983 Aviation PHM (?85%); Dangut et al. 2022 Aircraft Maintenance (?90%), Metrics For Any Predictive Maintenance system - Webinars - Nanoprecise",,
+M.CLS.F1_Sc,F1-Score (Global),0.75,1,Ratio (0-1),Harmonic Balance of Safety and Utility,"Academic Benchmark, Industry Practice	","Fault Identification Model Using Convolutional Neural Networks with Transforme, Unless your dataset is tiny or artificially perfect, this rarely happens. Most production models score between 0.6 and 0.9, depending on domain complexity. https://futurense.com/blog/f1-score-in-machine-learning, RMSE comparison based on C-MAPSS dataset",,
+M.CLS.AUC,AUC (ROC),0.80,1,Ratio (0-1),Diagnostic Performance Standard,Academic Benchmark,"FDA Statistical Guidance (?85%); Classification prognostics approaches in aviation: AUC provides threshold-independent performance assessment. AUC = 1.0 indicates perfect classification;Critical Parameter Identification for Safety Events in Commercial Aviation Using Machine Learning - MDP
+",,
+M.DATA.ODD_COV,ODD Coverage Ratio (%),90,100,%,Statistical Confidence Requirement,Standard/Regulation,"ISO/PAS 21448 SOTIF (?90%); EASA ODD coverage requirements, Operational Design Domain-Driven Coverage for the Safety Argumentation of Automated Vehicles",,
+M.DATA.SPLIT_INT,Dataset Separation Integrity,100,100,"% (no contamination)	",Certification Mandate (No Data Leakage),Regulation FDA,"FDA-003-Good Machine Learning Practice (GMLP) � FDA/HC/MHRA, Guiding Principles, https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice ",,
+M.DATA.PREPROC_AUDIT,Data Pre-Processing Audit Rate,0.9,1.00,Proportion,Literature review on data governance and good ML practice,Academic Benchmark,"Evaluating Prediction Model Performance, How to certify machine learning based safety-critical systems? A systematic literature review
+,Insights into Performance Fitness and Error Metrics for Machine Learning ",,
+M.DRIFT.DETECT.MTTD,Drift Detection Mean Time to Detection,0,3,Batches,Timely drift detection requirements for operational safety,Industrial Intuition,"Operational observability guidance for data drift alarms; Evidently AI drift monitoring recommendations",,
+M.DRIFT.DETECT.RECALL,Drift Detection Recall,0.9,1.0,Proportion,Timely drift detection requirements for operational safety,Industrial Intuition,"Operational observability guidance for data drift alarms; Evidently AI drift monitoring recommendations",,
+M.DRIFT.DETECT.FAR,Drift Detection False Alarm Rate,0.0,0.1,Proportion,Timely drift detection requirements for operational safety,Industrial Intuition,"Operational observability guidance for data drift alarms; Evidently AI drift monitoring recommendations",,
+M.DRIFT.KS,KS Drift Statistic,0.05,0.20,"KS statistic	",Statistical Significance Level (Effect Size,Academic/Statistical,"Choosing Univariate Drift Detection Methods, https://towardsdatascience.com/understanding-kolmogorov-smirnov-ks-tests-for-data-drift",,
+M.FL.NONIID,Client Non-IID Index (0�1) and Registry Completeness (%),90,100,"index (0-1), %	",Convergence Stability Limit,Academic Benchmark,With a Little Help from My Friend: Server-Aided Federated Learning with Partial Client Participation ,,
+M.FL.COMM_BYTES,Communication Efficiency (bytes/round),0,50,MB/round,Edge Bandwidth Constraint,Industrial Constraint,"DO-178C/IMA, A Brief Review of Deep Neural Network Implementations for ARM Cortex-M Processor",,
+M.FL.CONV_TIME,Time-to-Convergence (rounds/min),1,200,Rounds,FL convergence benchmarks from empirical studies,Academic Benchmark,"Operational feasibility FL systems (<2 hours/round); Real-time deployment constraints, Accuracy results with FedAVG as aggregation policy with 1% of convergence ",,
+M.FL.PRIV_DP,"Privacy Budget (epsilon, delta)",,,Industrial Standard (Differential Privacy),Industrial Application,"A list of real-world uses of differential privacy, The OARF Benchmark Suite: Characterization and Implications for Federated Learning Systems (SIXU HU) ",,
+M.FL.PRIV_EPS,"Privacy Budget (epsilon)",1.0,10.0,Unitless,"Derived from DP catalog",Industrial Application,"A list of real-world uses of differential privacy, The OARF Benchmark Suite: Characterization and Implications for Federated Learning Systems (SIXU HU) ",,
+M.FL.PRIV_DELTA,"Privacy Budget (delta)",0.0,0.00001,Unitless,"Derived from DP catalog",Industrial Application,"A list of real-world uses of differential privacy, The OARF Benchmark Suite: Characterization and Implications for Federated Learning Systems (SIXU HU) ",,
+M.FL.ATTACK_RES,Attack Resistance (success rate %),80,95,"% (resistance rate)	",Comparison to Baseline Error Rate,Security Benchmark,"FedDefender: Backdoor Attack Defense in Federated Learning, https://www.ndss-symposium.org/ndss-paper/manipulating-the-byzantine/",,
+M.FL.BYZ_TOL,Robust Aggregation Tolerance (%),10,30,"% (malicious client fraction)	","Byzantine fault tolerance in distributed systems	",Theoretical Limit,MUDGUARD: Taming Malicious Majorities in Federated Learning using Privacy-Preserving Byzantine-Robust Clustering - IMDEA Networks Principal,,
+"M.FL.WORST_CLIENT	",Worst-Group Performance (min),0.75,1.0,Ratio (vs. Avg.),Fairness/Equity Requirement,Academic Benchmark,Federated Fairness Analytics: Quantifying Fairness in Federated Learning,,
+M.FL.BENEFIT_EQ,Benefit Equity Index,0.8,1.00
+,Jain Index,Fairness Metric Threshold,Academic Benchmark,"Mitigating Group Bias in Federated Learning for Heterogeneous Devices
+, Federated Fairness Analytics: Quantifying Fairness in Federated Learning",,
+M.FL.COMM_COMP,Communication Efficiency Ratio,0.5,10.0,compression ratio,Compression Target for Edge AI,Academic Benchmark," Optimization of Convolutional Neural Networks Training for Federated Learning
+on Embedded Systems - Webthesis, FedCompress (?4.5�); CFedAvg compression efficiency (10-100� reduction)",,
+"M.FL.ATTACK_DET	",Attack Detection Rate,0.85,0.95,"detection rate	","Defense Effectiveness, 	Anomaly detection performance for security-critical systems",Security Benchmark,"Enhancing Federated Learning Security with a Defense Framework Against
+Adversarial Attacks in Privacy-Sens, Jebreel et al. 2022 Byzantine detection (?80%); Multi-Krum baseline (?85%)",,
+M.GEN.GAP,Generalization Gap,0.0,0.05,"absolute difference	",ML generalization performance from empirical studies,Academic Benchmark,"From Promise to Practice:
+A Study of Common Pitfalls Behind the Generalization Gap
+in Machine Learning
+, Overfitting Machine Learning: How to Protect AI Security Models - Qohash",,
+M.PERF.COV,Independent Test Evaluation Coverage (%),95,100,%,"V&V completeness requirements for certification	","Certification Mandate, Aerospace Standard	",Standard (EASA-019/023),,
+M.PERF.STAT_REP,Generalization Reporting Completeness (%),95,100.0
+,%,Regulatory Documentation Requirement,Standard ,"FDA-004, https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice",,
+M.PERF.CROSS_STAB,Cross-Population Stability (worst-group ?),0.0,0.10,"coefficient of variation	",Fairness/Robustness Requirement,Standard ,FDA-001/002,,
+M.PRG.PHM,Prognostics Score (PHM08),500,250,Score,SOTA Benchmark (C-MAPSS),Academic Benchmark,"PHM08 Competition scoring system; Alestra et al. AIRBUS (Score <1000 acceptable <500, is succesful)  Performance Benchmarking and Analysis of Prognostic Methods for CMAPSS Datasets",,
+M.ROB.STAB_ODD,Stability Across ODD (CV %),0,10,CV %,Robustness Variation Limit,Academic Benchmark,Easy Access Rules for Large Aeroplanes (CS-25),,
+M.ROB.DEGRAD,Robustness Degradation Index (%),0,10,% Drop,Adversarial Robustness Tolerance,Security Benchmark,"Adversarial Attacks and Defenses in AI Systems: Challenges, Strategies, and Future Direction",,
+M.RT.LAT,Inference Latency (ms),0,100,ms,Real-Time Monitoring Requirement,Industrial Constraint,"Edge-Based Real-Time Fault Detection in UAV Systems via B-Spline Telemetry Reconstruction and Lightweight Hybrid AI - PubMed Central, Real-time PHM (?50ms); Monitoring system latency requirements (?100ms), 10.3390/aerospace12010066",,
+ M.SAF.ACC,Safety-Linked Accuracy (min),0.95,0.99,%,Hazard Analysis Allocation,Standard/Regulation,"FHA Deriven, EASA Concept Paper (DAL C/D:); FDA Medical Device Guidance (95%), Functional Hazard calculation results, 0.90-0.99 (major to catastrophic hazzard), Aircraft Engine Remaining Useful Life (RUL) Prediction Using Machine Learning",,
+M.SAF.REC,Safety-Linked Recall (min),0.95,0.99	
+,%,Critical Failure Detection Limit,Standard (Safety),"FHA Deriven, SAE ARP6983 (?95% for critical failure detection); SAE ARP4761, 14 CFR 25.1309, Young et al. 2025 Aircraft Systems (98% recall), he potential for leveraging machine learning to filter medication alerts - PMC",,
+M.SAF.FPFN,Safety-Linked FPR/FNR (max),,,%,False Alarm Tolerance,Industrial Intuition,The potential for leveraging machine learning to filter medication alerts - PMC,,
+M.SAF.FNR_MAX,Safety-Linked FNR (max),0.01,0.005,%,False Alarm Tolerance,Industrial Intuition,The potential for leveraging machine learning to filter medication alerts - PMC,,
+M.SAF.FPR_MAX,Safety-Linked FPR (max),0.0,0.02,%,False Alarm Tolerance,Industrial Intuition,The potential for leveraging machine learning to filter medication alerts - PMC,,
+M.SAF.RMSE,Safety-Linked RMSE (max),20,15,Cycle,SOTA Performance Benchmark,Academic Benchmark,"Performance Benchmarking and Analysis of Prognostic Methods for CMAPSS Datasets, FHA Deriven, Alomari et al. 2023 C-MAPSS (RMSE 13.88); Elsherif et al. 2025 C-MAPSS (RMSE 13.88-15)",,
+M.STAT.CI,95% CI Width,0.0,0.05,Unit,Statistical Precision Target,Statistical Standard,"FDA 95% CI Statistical Guidance (width <=0.05 for high-confidence reporting)",,
+M.XAI.FIDE_STAB,Attribution Fidelity & Stability,,,Score (0-1),Explainability Trust Threshold,Academic Benchmark,"A SURVEY ON EXPLAINABLE AI: TECHNIQUES AND CHALLENGE, Feature attribution consistency requirements",,
+M.XAI.FIDELITY,Attribution Fidelity Score,0.80,1.00,Score (0-1),Explainability Trust Threshold,Academic Benchmark,"A SURVEY ON EXPLAINABLE AI: TECHNIQUES AND CHALLENGE, Feature attribution consistency requirements",,
+M.XAI.STABILITY,Attribution Stability Score,0.85,0.95,Score (0-1),Explainability Trust Threshold,Academic Benchmark,"A SURVEY ON EXPLAINABLE AI: TECHNIQUES AND CHALLENGE, Feature attribution consistency requirements",,
+M.BIAS.COMPL,"Model Bias/Variance Compliance Rate",0,0.05,"Proportion","Regulatory audits, literature survey, best practices in high-stakes ML	",Academic Benchmark,Fairness in focus: quantitative insights into bias within machine learning risk evaluations and established credit models,,
+M.BIAS.TRADEOFF ,Bias�Variance Trade-off Profile,0.8,1.00,"Proportion	",Literature review on model selection and bias�variance trade-off curves; engineering judgment for safety-critical applications; alignment with practice,Academic Benchmark,"Evaluation of Regression Models: Model Assessment,
+Model Selection and Generalization Error, Rethinking Bias-Variance Trade-off for Generalization of Neural Networks
+",,
+M.XFORM.DELTA,"Model Transformation Impact Delta",-0.01,0.01,"Absolute Change (? primary metric)	","Literature review and critical application reporting, empirical analysis of transformation impact	",Academic Benchmark,"Memorizing without overfitting: Bias, variance, and interpolation in overparameterized models",,
+M.INFER.STAB,"Inference Stability Score	",0,0.02,"Coefficient of Variation (CV)	","reports, ML operational standards, process best practice",Academic Benchmark,"ASI: Accuracy-Stability Index for
+Evaluating Deep Learning Models, A framework to evaluate machine learning crystal stability predictions",,

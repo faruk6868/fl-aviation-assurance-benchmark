@@ -1,0 +1,8 @@
+﻿tb_id: "TB-12"
+description: "Placeholder for TB-12 configuration. TODO: refine thresholds, data paths, and metrics."
+algorithms: ["fedavg"]
+metrics:
+  expected: []
+data:
+  source: "artifacts/testbeds/TB-12"
+notes: "Align thresholds with config/config_v2 and update per-paper settings."

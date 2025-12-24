@@ -1,0 +1,54 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  max_sequences_per_client: 400
+
+clients:
+  num_clients: 20
+  dirichlet_alpha: 0.6
+  feature_shift_std: 0.05
+  seed: 2034
+
+federated:
+  rounds: 150
+  clients_per_round: 1.0
+  local_epochs: 2
+  batch_size: 16
+  test_batch_size: 128
+  optimizer:
+    lr: 0.003
+    weight_decay: 0.0
+  fedprox_mu: 0.01
+  scaffold_eta: 1.0
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+evaluation:
+  device: "cpu"
+  seed: 2034
+  utility_guardrail: 0.1
+
+dp_variants:
+  - name: "baseline"
+    noise_multiplier: 0.0
+    clip_norm: 1.0
+    delta: 1e-5
+    baseline: true
+  - name: "epsilon_5"
+    noise_multiplier: 0.8
+    clip_norm: 1.0
+    delta: 1e-5
+  - name: "epsilon_2"
+    noise_multiplier: 1.2
+    clip_norm: 1.0
+    delta: 1e-5
+  - name: "epsilon_1"
+    noise_multiplier: 2.0
+    clip_norm: 1.0
+    delta: 1e-5
+

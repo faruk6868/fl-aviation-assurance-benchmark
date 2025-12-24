@@ -1,0 +1,36 @@
+dataset:
+  id: "FD002"
+  failure_horizon: 30          # cycles considered "imminent failure"
+  sequence_length: 30          # cycles per sequence window
+  sequence_stride: 10          # step between successive windows
+  normalize: true
+  max_sequences_per_client: 300
+
+clients:
+  num_clients: 20
+  dirichlet_alpha: 0.6
+  feature_shift_std: 0.05      # optional Gaussian shift magnitude
+  seed: 1337
+
+federated:
+  rounds: 150
+  clients_per_round: 0.35      # fraction of clients sampled each round
+  local_epochs: 2
+  batch_size: 16
+  test_batch_size: 128
+  optimizer:
+    lr: 0.002
+    weight_decay: 0.0
+  fedprox_mu: 0.01
+  scaffold_eta: 1.0  # Control variate update strength (now properly used in code)
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+evaluation:
+  device: "cpu"
+  threshold: 0.5
+  seed: 2025
+

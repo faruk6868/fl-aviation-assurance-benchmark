@@ -1,0 +1,39 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  max_sequences_per_client: 600
+
+clients:
+  num_clients: 20
+  dirichlet_alpha: 0.6
+  seed: 2030
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+timeline:
+  total_batches: 60
+  batch_size: 128
+  pre_drift_batches: 20
+  drift_ramp_batches: 10
+
+drift:
+  noise_max: 0.08
+  bias_max: 0.05
+  dropout_max: 0.05
+  affected_client_fraction: 0.5
+
+detection:
+  reference_window: 10
+  rolling_window: 5
+  rmse_threshold: 0.25
+  ks_threshold: 0.3
+
+evaluation:
+  device: "cpu"
+  seed: 2030
+

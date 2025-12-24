@@ -1,0 +1,122 @@
+[
+  {
+    "metric_id": "M.FL.COMM_BYTES",
+    "value": 32952480.0,
+    "extras": {
+      "variant": "none",
+      "unit": "bytes/round",
+      "avg_bytes": 32952480.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.00623434158698,
+      "utility_delta": 0.0,
+      "guardrail_pass": true,
+      "upload_ratio": 1.0,
+      "download_ratio": 1.0
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_COMP",
+    "value": 1.0,
+    "extras": {
+      "variant": "none",
+      "unit": "bytes/round",
+      "avg_bytes": 32952480.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.00623434158698,
+      "utility_delta": 0.0,
+      "guardrail_pass": true,
+      "upload_ratio": 1.0,
+      "download_ratio": 1.0
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_BYTES",
+    "value": 16476240.0,
+    "extras": {
+      "variant": "quant16",
+      "unit": "bytes/round",
+      "avg_bytes": 16476240.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.54629668500285,
+      "utility_delta": 0.01,
+      "guardrail_pass": true,
+      "upload_ratio": 0.5,
+      "download_ratio": 0.5
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_COMP",
+    "value": 2.0,
+    "extras": {
+      "variant": "quant16",
+      "unit": "bytes/round",
+      "avg_bytes": 16476240.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.54629668500285,
+      "utility_delta": 0.01,
+      "guardrail_pass": true,
+      "upload_ratio": 0.5,
+      "download_ratio": 0.5
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_BYTES",
+    "value": 24714360.0,
+    "extras": {
+      "variant": "topk_50",
+      "unit": "bytes/round",
+      "avg_bytes": 24714360.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.81632785671078,
+      "utility_delta": 0.015,
+      "guardrail_pass": true,
+      "upload_ratio": 0.5,
+      "download_ratio": 1.0
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_COMP",
+    "value": 1.3333333333333333,
+    "extras": {
+      "variant": "topk_50",
+      "unit": "bytes/round",
+      "avg_bytes": 24714360.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 54.81632785671078,
+      "utility_delta": 0.015,
+      "guardrail_pass": true,
+      "upload_ratio": 0.5,
+      "download_ratio": 1.0
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_BYTES",
+    "value": 19771488.0,
+    "extras": {
+      "variant": "topk_20",
+      "unit": "bytes/round",
+      "avg_bytes": 19771488.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 55.626421371834596,
+      "utility_delta": 0.03,
+      "guardrail_pass": true,
+      "upload_ratio": 0.2,
+      "download_ratio": 1.0
+    }
+  },
+  {
+    "metric_id": "M.FL.COMM_COMP",
+    "value": 1.6666666666666667,
+    "extras": {
+      "variant": "topk_20",
+      "unit": "bytes/round",
+      "avg_bytes": 19771488.0,
+      "avg_uncompressed": 32952480.0,
+      "utility_rmse": 55.626421371834596,
+      "utility_delta": 0.03,
+      "guardrail_pass": true,
+      "upload_ratio": 0.2,
+      "download_ratio": 1.0
+    }
+  }
+]

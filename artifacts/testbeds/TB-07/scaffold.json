@@ -1,0 +1,14 @@
+[
+  {
+    "metric_id": "M.ROB.STAB_ODD",
+    "value": 0.001012609774357331
+  },
+  {
+    "metric_id": "M.ROB.DEGRAD",
+    "value": 0.0038114435787720904
+  },
+  {
+    "metric_id": "M.INFER.STAB",
+    "value": 0.0070933997631073
+  }
+]

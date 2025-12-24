@@ -1,0 +1,21 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  samples: 100
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+explainability:
+  method: "grad"
+  repeats: 5
+  noise_std: 0.01
+
+evaluation:
+  device: "cpu"
+  seed: 2037
+

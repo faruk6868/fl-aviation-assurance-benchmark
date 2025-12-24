@@ -1,0 +1,48 @@
+{
+  "baseline_rmse": 36.52087400211779,
+  "scenarios": [
+    {
+      "scenario": "clean_baseline",
+      "attack_type": "none",
+      "malicious_fraction": 0.0,
+      "rmse": 36.52087400211779,
+      "relative_degradation": 0.0,
+      "resistant": true,
+      "detection_recall": 0.0,
+      "detection_precision": 0.0
+    },
+    {
+      "scenario": "label_flip_10",
+      "attack_type": "label_flip",
+      "malicious_fraction": 0.1,
+      "rmse": 34.939608755494206,
+      "relative_degradation": -0.04329757405400243,
+      "resistant": true,
+      "detection_recall": 0.44,
+      "detection_precision": 0.25
+    },
+    {
+      "scenario": "grad_poison_30",
+      "attack_type": "grad_poison",
+      "malicious_fraction": 0.3,
+      "rmse": 82.05430420765794,
+      "relative_degradation": 1.2467782179281832,
+      "resistant": false,
+      "detection_recall": 1.0,
+      "detection_precision": 1.0
+    },
+    {
+      "scenario": "backdoor_30",
+      "attack_type": "backdoor",
+      "malicious_fraction": 0.3,
+      "rmse": 23.695138726159414,
+      "relative_degradation": -0.3511891658237597,
+      "resistant": true,
+      "detection_recall": 0.35333333333333333,
+      "detection_precision": 0.7066666666666667
+    }
+  ],
+  "attack_resistance": 0.6666666666666666,
+  "byzantine_tolerance": 0.3,
+  "attack_detection": 0.4483333333333333
+}

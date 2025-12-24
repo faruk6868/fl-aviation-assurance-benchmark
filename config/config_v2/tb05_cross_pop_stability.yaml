@@ -1,0 +1,62 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  max_sequences_per_client: 400
+
+clients:
+  num_clients: 20
+  dirichlet_alpha: 0.6
+  feature_shift_std: 0.05
+  seed: 2027
+  groups:
+    # Example grouping: clients 0-6 → group A (condition 1),
+    # 7-13 → group B (condition 2), 14-19 → group C (late RUL)
+    "0": "A"
+    "1": "A"
+    "2": "A"
+    "3": "A"
+    "4": "A"
+    "5": "B"
+    "6": "B"
+    "7": "B"
+    "8": "B"
+    "9": "B"
+    "10": "B"
+    "11": "C"
+    "12": "C"
+    "13": "C"
+    "14": "C"
+    "15": "C"
+    "16": "C"
+    "17": "C"
+    "18": "C"
+    "19": "C"
+
+federated:
+  rounds: 150
+  clients_per_round: 0.4
+  local_epochs: 2
+  batch_size: 16
+  test_batch_size: 128
+  optimizer:
+    lr: 0.003
+    weight_decay: 0.0
+  fedprox_mu: 0.01
+  scaffold_eta: 1.0
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+transforms:
+  # Simple quantization-like perturbation; can be replaced with ONNX export etc.
+  type: "quantization"
+  noise_std: 0.01
+
+evaluation:
+  device: "cpu"
+  seed: 2027
+

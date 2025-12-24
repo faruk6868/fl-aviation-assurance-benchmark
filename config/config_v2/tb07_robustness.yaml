@@ -1,0 +1,49 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  max_sequences_per_client: 400
+
+clients:
+  num_clients: 20
+  dirichlet_alpha: 0.6
+  feature_shift_std: 0.05
+  seed: 2029
+
+federated:
+  rounds: 150
+  clients_per_round: 0.4
+  local_epochs: 2
+  batch_size: 16
+  test_batch_size: 128
+  optimizer:
+    lr: 0.003
+    weight_decay: 0.0
+  fedprox_mu: 0.01
+  scaffold_eta: 1.0
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+odd_segments:
+  # Example segments defined by operating condition ID
+  - name: "segment_A"
+    condition_ids: [1]
+  - name: "segment_B"
+    condition_ids: [2]
+  - name: "segment_C"
+    condition_ids: [3]
+
+perturbations:
+  noise_levels: [0.02, 0.05, 0.1]
+  bias_levels: [0.0, 0.05]
+  dropout_rate: 0.05
+  repeats: 5
+
+evaluation:
+  device: "cpu"
+  seed: 2029
+

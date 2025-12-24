@@ -1,0 +1,29 @@
+[
+  {
+    "metric_id": "M.XAI.FIDE_STAB",
+    "value": 0.0,
+    "extras": {
+      "median": 0.0,
+      "min": 0.0,
+      "samples": 100
+    }
+  },
+  {
+    "metric_id": "M.XAI.FIDELITY",
+    "value": 0.0,
+    "extras": {
+      "median": 0.0,
+      "min": 0.0,
+      "samples": 100
+    }
+  },
+  {
+    "metric_id": "M.XAI.STABILITY",
+    "value": 0.0,
+    "extras": {
+      "median": 0.0,
+      "min": 0.0,
+      "samples": 100
+    }
+  }
+]

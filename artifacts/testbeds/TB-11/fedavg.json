@@ -1,0 +1,50 @@
+[
+  {
+    "metric_id": "M.FL.PRIV_DP",
+    "value": 132.68045645243558,
+    "extras": {
+      "variant": "epsilon_1",
+      "epsilon": 132.68045645243558,
+      "delta": 1e-05,
+      "rmse": 26.09080081497679,
+      "utility_delta": -0.29771758886543254,
+      "guardrail_pass": false
+    }
+  },
+  {
+    "metric_id": "M.FL.PRIV_EPS",
+    "value": 132.68045645243558,
+    "extras": {
+      "variant": "epsilon_1",
+      "epsilon": 132.68045645243558,
+      "delta": 1e-05,
+      "rmse": 26.09080081497679,
+      "utility_delta": -0.29771758886543254,
+      "guardrail_pass": false
+    }
+  },
+  {
+    "metric_id": "M.FL.PRIV_DELTA",
+    "value": 1e-05,
+    "extras": {
+      "variant": "epsilon_1",
+      "epsilon": 132.68045645243558,
+      "delta": 1e-05,
+      "rmse": 26.09080081497679,
+      "utility_delta": -0.29771758886543254,
+      "guardrail_pass": false
+    }
+  },
+  {
+    "metric_id": "M.SAF.RMSE",
+    "value": 26.09080081497679,
+    "extras": {
+      "variant": "epsilon_1",
+      "epsilon": 132.68045645243558,
+      "delta": 1e-05,
+      "rmse": 26.09080081497679,
+      "utility_delta": -0.29771758886543254,
+      "guardrail_pass": false
+    }
+  }
+]

@@ -1,0 +1,24 @@
+dataset:
+  id: "FD002"
+  sequence_length: 30
+  sequence_stride: 10
+  normalize: true
+  max_sequences: 1000
+
+hardware_profiles:
+  - name: "cpu_4threads"
+    backend: "pytorch"
+    num_threads: 4
+    use_gpu: false
+    warmup_runs: 50
+    measured_runs: 500
+
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.2
+
+evaluation:
+  device: "cpu"
+  seed: 2036
+

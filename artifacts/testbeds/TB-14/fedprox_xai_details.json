@@ -1,0 +1,407 @@
+{
+  "stability_mean": 0.38045018801687525,
+  "stability_median": 0.3567749032820359,
+  "stability_min": 0.2094480394445998,
+  "sample_scores": [
+    {
+      "sample_index": 0,
+      "stability_score": 0.3029742906359639
+    },
+    {
+      "sample_index": 1,
+      "stability_score": 0.3996876528717175
+    },
+    {
+      "sample_index": 2,
+      "stability_score": 0.5470824488470787
+    },
+    {
+      "sample_index": 3,
+      "stability_score": 0.5376304567920582
+    },
+    {
+      "sample_index": 4,
+      "stability_score": 0.43971284943282374
+    },
+    {
+      "sample_index": 5,
+      "stability_score": 0.2978685136190423
+    },
+    {
+      "sample_index": 6,
+      "stability_score": 0.31242199709730784
+    },
+    {
+      "sample_index": 7,
+      "stability_score": 0.4628348148148008
+    },
+    {
+      "sample_index": 8,
+      "stability_score": 0.5504299585661308
+    },
+    {
+      "sample_index": 9,
+      "stability_score": 0.44189813416554224
+    },
+    {
+      "sample_index": 10,
+      "stability_score": 0.29469214025051216
+    },
+    {
+      "sample_index": 11,
+      "stability_score": 0.28741840664269647
+    },
+    {
+      "sample_index": 12,
+      "stability_score": 0.28721298045157817
+    },
+    {
+      "sample_index": 13,
+      "stability_score": 0.2898031782442879
+    },
+    {
+      "sample_index": 14,
+      "stability_score": 0.3196418817455151
+    },
+    {
+      "sample_index": 15,
+      "stability_score": 0.2975638439452016
+    },
+    {
+      "sample_index": 16,
+      "stability_score": 0.41891598904252875
+    },
+    {
+      "sample_index": 17,
+      "stability_score": 0.2964082442155703
+    },
+    {
+      "sample_index": 18,
+      "stability_score": 0.3093291973359077
+    },
+    {
+      "sample_index": 19,
+      "stability_score": 0.21188724199601044
+    },
+    {
+      "sample_index": 20,
+      "stability_score": 0.40913980502048924
+    },
+    {
+      "sample_index": 21,
+      "stability_score": 0.43084370623399026
+    },
+    {
+      "sample_index": 22,
+      "stability_score": 0.40225759772740943
+    },
+    {
+      "sample_index": 23,
+      "stability_score": 0.3144593403957229
+    },
+    {
+      "sample_index": 24,
+      "stability_score": 0.3133135996081301
+    },
+    {
+      "sample_index": 25,
+      "stability_score": 0.5295916607177664
+    },
+    {
+      "sample_index": 26,
+      "stability_score": 0.297794370547987
+    },
+    {
+      "sample_index": 27,
+      "stability_score": 0.29411658908346977
+    },
+    {
+      "sample_index": 28,
+      "stability_score": 0.3044193680409973
+    },
+    {
+      "sample_index": 29,
+      "stability_score": 0.28760511805421174
+    },
+    {
+      "sample_index": 30,
+      "stability_score": 0.46087404843665764
+    },
+    {
+      "sample_index": 31,
+      "stability_score": 0.2952002111115911
+    },
+    {
+      "sample_index": 32,
+      "stability_score": 0.2990367982978531
+    },
+    {
+      "sample_index": 33,
+      "stability_score": 0.542123648298386
+    },
+    {
+      "sample_index": 34,
+      "stability_score": 0.29824185998129626
+    },
+    {
+      "sample_index": 35,
+      "stability_score": 0.30097256171261366
+    },
+    {
+      "sample_index": 36,
+      "stability_score": 0.2941663729314242
+    },
+    {
+      "sample_index": 37,
+      "stability_score": 0.29728271585518795
+    },
+    {
+      "sample_index": 38,
+      "stability_score": 0.2094480394445998
+    },
+    {
+      "sample_index": 39,
+      "stability_score": 0.5382568780055891
+    },
+    {
+      "sample_index": 40,
+      "stability_score": 0.21241393242682055
+    },
+    {
+      "sample_index": 41,
+      "stability_score": 0.481486239627687
+    },
+    {
+      "sample_index": 42,
+      "stability_score": 0.5406036280748145
+    },
+    {
+      "sample_index": 43,
+      "stability_score": 0.5358786348014154
+    },
+    {
+      "sample_index": 44,
+      "stability_score": 0.5567582394444544
+    },
+    {
+      "sample_index": 45,
+      "stability_score": 0.53810029752179
+    },
+    {
+      "sample_index": 46,
+      "stability_score": 0.2095766266810506
+    },
+    {
+      "sample_index": 47,
+      "stability_score": 0.2970093993468651
+    },
+    {
+      "sample_index": 48,
+      "stability_score": 0.29006968835404
+    },
+    {
+      "sample_index": 49,
+      "stability_score": 0.40117492575971647
+    },
+    {
+      "sample_index": 50,
+      "stability_score": 0.28633149721297035
+    },
+    {
+      "sample_index": 51,
+      "stability_score": 0.5272700646399456
+    },
+    {
+      "sample_index": 52,
+      "stability_score": 0.29298160370799975
+    },
+    {
+      "sample_index": 53,
+      "stability_score": 0.5332328606174683
+    },
+    {
+      "sample_index": 54,
+      "stability_score": 0.4047092659712245
+    },
+    {
+      "sample_index": 55,
+      "stability_score": 0.2857704139337588
+    },
+    {
+      "sample_index": 56,
+      "stability_score": 0.31244428393802587
+    },
+    {
+      "sample_index": 57,
+      "stability_score": 0.45702603534611697
+    },
+    {
+      "sample_index": 58,
+      "stability_score": 0.2936172349215011
+    },
+    {
+      "sample_index": 59,
+      "stability_score": 0.21769181798773282
+    },
+    {
+      "sample_index": 60,
+      "stability_score": 0.31192646785734135
+    },
+    {
+      "sample_index": 61,
+      "stability_score": 0.47064279771228107
+    },
+    {
+      "sample_index": 62,
+      "stability_score": 0.39464444793921294
+    },
+    {
+      "sample_index": 63,
+      "stability_score": 0.30021559605079695
+    },
+    {
+      "sample_index": 64,
+      "stability_score": 0.3043381899200077
+    },
+    {
+      "sample_index": 65,
+      "stability_score": 0.5248438759407372
+    },
+    {
+      "sample_index": 66,
+      "stability_score": 0.43274613144576024
+    },
+    {
+      "sample_index": 67,
+      "stability_score": 0.39390792481855674
+    },
+    {
+      "sample_index": 68,
+      "stability_score": 0.4593844790645075
+    },
+    {
+      "sample_index": 69,
+      "stability_score": 0.29539103351265783
+    },
+    {
+      "sample_index": 70,
+      "stability_score": 0.29696339467504695
+    },
+    {
+      "sample_index": 71,
+      "stability_score": 0.44113880516580306
+    },
+    {
+      "sample_index": 72,
+      "stability_score": 0.4136081409770246
+    },
+    {
+      "sample_index": 73,
+      "stability_score": 0.4660966230238152
+    },
+    {
+      "sample_index": 74,
+      "stability_score": 0.2840987018627903
+    },
+    {
+      "sample_index": 75,
+      "stability_score": 0.4438935824894602
+    },
+    {
+      "sample_index": 76,
+      "stability_score": 0.2165488416762837
+    },
+    {
+      "sample_index": 77,
+      "stability_score": 0.4749368305684487
+    },
+    {
+      "sample_index": 78,
+      "stability_score": 0.5194682163491613
+    },
+    {
+      "sample_index": 79,
+      "stability_score": 0.4138713327575597
+    },
+    {
+      "sample_index": 80,
+      "stability_score": 0.28744823155690086
+    },
+    {
+      "sample_index": 81,
+      "stability_score": 0.5262472525744204
+    },
+    {
+      "sample_index": 82,
+      "stability_score": 0.4658673888840422
+    },
+    {
+      "sample_index": 83,
+      "stability_score": 0.3958321766519871
+    },
+    {
+      "sample_index": 84,
+      "stability_score": 0.5299539671291738
+    },
+    {
+      "sample_index": 85,
+      "stability_score": 0.21563806662180934
+    },
+    {
+      "sample_index": 86,
+      "stability_score": 0.5289598814375831
+    },
+    {
+      "sample_index": 87,
+      "stability_score": 0.4568879060678787
+    },
+    {
+      "sample_index": 88,
+      "stability_score": 0.214720164771475
+    },
+    {
+      "sample_index": 89,
+      "stability_score": 0.4065916978562979
+    },
+    {
+      "sample_index": 90,
+      "stability_score": 0.21906774387913702
+    },
+    {
+      "sample_index": 91,
+      "stability_score": 0.30435452778652095
+    },
+    {
+      "sample_index": 92,
+      "stability_score": 0.5426102064180982
+    },
+    {
+      "sample_index": 93,
+      "stability_score": 0.5413759787172262
+    },
+    {
+      "sample_index": 94,
+      "stability_score": 0.30433303035896747
+    },
+    {
+      "sample_index": 95,
+      "stability_score": 0.45500473036773537
+    },
+    {
+      "sample_index": 96,
+      "stability_score": 0.521001680283181
+    },
+    {
+      "sample_index": 97,
+      "stability_score": 0.5508768421565395
+    },
+    {
+      "sample_index": 98,
+      "stability_score": 0.3118063135256051
+    },
+    {
+      "sample_index": 99,
+      "stability_score": 0.30907040030264954
+    }
+  ]
+}

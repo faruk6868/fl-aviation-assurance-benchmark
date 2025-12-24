@@ -1,0 +1,15 @@
+[
+  {
+    "metric_id": "M.RT.LAT",
+    "value": 0.1715500002319459,
+    "extras": {
+      "hw_profile": "cpu_4threads",
+      "mean_ms": 0.19739279990608338,
+      "p95_ms": 0.3372700019099278,
+      "max_ms": 0.7097000016074162,
+      "backend": "pytorch",
+      "num_threads": 4,
+      "use_gpu": false
+    }
+  }
+]
