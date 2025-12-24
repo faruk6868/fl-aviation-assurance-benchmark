@@ -1,6 +1,6 @@
 ﻿# A Regulatory-Aligned Assurance Framework for Federated Learning in Aviation with a Prognostics and Diagnostics Testbed
 
-**Abstract (10 lines)**
+**Abstract**
 1) Benchmarks federated learning (FL) models for aviation prognostics using NASA C-MAPSS turbofan data. 2) Aligns assurance evidence with aviation guidance (EASA/FAA), SAE ARP4754A/4761, SOTIF, and NIST AI RMF. 3) Implements 14 test beds (TB-01 to TB-14) spanning data realism, safety, robustness, fairness, privacy, runtime, and explainability. 4) Evaluates 38 applicable metrics with thresholds mapped to requirements and clauses. 5) Automates Claim-Argument-Evidence (CAM) and Goal Structuring Notation (GSN) asset generation. 6) Provides deterministic seeding, config snapshots, and reproducible aggregation. 7) Uses only public data (NASA C-MAPSS) with helper scripts to download and stage files. 8) Reproduces pass/fail tables and paper figures (heatmap, runtime) via one command. 9) Separates code, configs, results, and paper assets for auditability. 10) Ships software citation metadata and guidance to archive releases on Zenodo.
 
 ## Quickstart
