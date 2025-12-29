@@ -73,7 +73,7 @@ def label_skew_partition(
     rng = np.random.default_rng(seed)
     partitions: Dict[int, List[int]] = defaultdict(list)
 
-    # Assign engines alternating between high and low event rates to amplify skew
+    
     low_engines = engine_stats.iloc[: len(engine_stats) // 2]["engine_id"].tolist()
     high_engines = engine_stats.iloc[len(engine_stats) // 2 :]["engine_id"].tolist()
     rng.shuffle(low_engines)

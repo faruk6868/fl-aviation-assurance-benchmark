@@ -13,7 +13,7 @@ import pandas as pd
 from src.metrics import MetricResult
 from src.utils import MetricMetadata, RequirementMapping
 
-if TYPE_CHECKING:  # pragma: no cover - for type checking only
+if TYPE_CHECKING:  
     from src.evaluation.types import TestOutput
 
 

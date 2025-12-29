@@ -101,7 +101,7 @@ def run_from_config(config_path: Path, dry_run: bool = False, smoke_run: bool = 
     aggregate_target = project_root / "results" / "all_results.csv"
     write_all_results(assurance_dir, aggregate_target)
 
-    # Copy figures/time benchmarks into paper assets
+    
     analysis_cfg = config.get("analysis", {})
     figure_sources = [project_root / Path(p) for p in analysis_cfg.get("figure_sources", [])]
     figure_targets = [project_root / Path(p) for p in analysis_cfg.get("figure_targets", ["paper_assets/figures"])]
@@ -119,5 +119,5 @@ def main(argv: Sequence[str] | None = None) -> None:
     run_from_config(Path(args.config), dry_run=args.dry_run, smoke_run=args.smoke_run)
 
 
-if __name__ == "__main__":  # pragma: no cover - manual execution
+if __name__ == "__main__":  
     main()
