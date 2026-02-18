@@ -1,4 +1,4 @@
-﻿# Assurance framework (plain language)
+﻿# Assurance framework 
 
 - Clauses: Derived from aviation safety guidance (EASA/FAA), SAE ARP4754A/4761, SOTIF, and NIST AI RMF.
 - Requirements: Each clause maps to one or more measurable requirements (see `config/config_v2/B.Requirements.csv`).
